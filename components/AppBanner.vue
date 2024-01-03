@@ -22,7 +22,7 @@ function handlePlay() {
 		style="background-image: url(/dots-mini-light.png);">
 		</div>
 		<div class="absolute z-30">
-			<img src="/logo.svg" class="w-[240px] sm:w-[350px]">
+			<img src="/logo.svg" class="w-[240px] sm:w-[240px]">
 		</div>
 	</div>
 </template>
