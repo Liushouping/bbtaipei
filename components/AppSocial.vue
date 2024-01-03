@@ -20,7 +20,7 @@ onBeforeUnmount(() => {
 	class="fixed bottom-10 right-4 w-[40px] h-[120px] transition-all duration-500 cursor-pointer opacity-0 z-30">
 		<ul class="flex flex-col justify-center items-center space-y-6">
 			<li>
-				<a href="https://line.me/R/ti/p/nkCjo_6ffo" target="_blank">
+				<a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=327gjmth" target="_blank">
 					<svg 
 					class="w-8 h-8 fill-green-500" 
 					id="_圖層_2" data-name="圖層 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 383.67 367.32">
