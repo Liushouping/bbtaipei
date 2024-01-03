@@ -3,7 +3,7 @@ const headerHeight = ref(20);
 const headerBackgroundColor = ref('transparent');
 const headerTextColor = ref("white");
 const headerShadow = ref(false);
-// const headerIcon = ref(true);
+const headerIcon = ref(true);
 
 const menu = ref(false);
 
@@ -13,7 +13,7 @@ const handleScroll = () => {
     headerBackgroundColor.value = scrollY > 60 ? 'black' : 'transparent';
     headerTextColor.value = scrollY > 60 ? 'black' : 'white';
     headerShadow.value = scrollY > 60;
-    // headerIcon.value = scrollY < 60;
+    headerIcon.value = scrollY < 60;
 };
 
 onMounted(() => {
@@ -38,7 +38,8 @@ onBeforeUnmount(() => {
 					<div 
 					class="flex md:hidden cursor-pointer"
 					@click="menu =! menu">
-						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" 
+						class="w-6 h-6 text-gray-50" :class="{ 'text-transparent': headerIcon }">
 						  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
 						</svg>
 					</div>

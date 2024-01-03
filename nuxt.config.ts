@@ -6,12 +6,12 @@ export default defineNuxtConfig({
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
       title: 'OMNI Nightclub Taipei - 台北夜間娛樂指標 Nightclub in Taipei',
-      // meta: [
-      //   { name: 'description', content: 'Oxi Oyster & Wine Live House提供法國直送生蠔、法式料理，以及多款世界知名紅白酒供您品味' },
-      //   { property: 'og:title', content: 'OXI Oyster & Wine Live House | Taipei' },
-      //   { property: 'og:description', content: 'Oxi Oyster & Wine Live House提供法國直送生蠔、法式料理，以及多款世界知名紅白酒供您品味' },
-      //   { property: 'og:image', content: '/images/welcome_3.webp' }
-      // ],
+      meta: [
+        { name: 'description', content: 'OMNI 台北夜間娛樂指標．萬象包羅．極致體驗．Award-winning nightclub in Taiwan with VOID Acoustic sound system. 訂位專線 / RSVP：+886-983-803-388 | OMNI Taipei' },
+        { property: 'og:title', content: 'OMNI Nightclub Taipei - 台北夜間娛樂指標 Nightclub in Taipei' },
+        { property: 'og:description', content: 'OMNI 台北夜間娛樂指標．萬象包羅．極致體驗．Award-winning nightclub in Taiwan with VOID Acoustic sound system. 訂位專線 / RSVP：+886-983-803-388 | OMNI Taipei' },
+        { property: 'og:image', content: '/OMNI_LOGO_WHITE_RGB.png' }
+      ],
       link: [
         { 
           rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' 
