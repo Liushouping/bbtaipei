@@ -1,8 +1,8 @@
 <template>
 	<div class="w-full h-full flex flex-col sm:flex-row">
 		<div 
-		class="w-full sm:w-1/2 h-[600px] bg-cover bg-center"
-		style="background-image: url(/title-1.jpeg);">
+		class="w-full sm:w-1/2 h-[600px] bg-cover bg-right"
+		style="background-image: url(/title-1.jpg);">
 		</div>
 		<div 
 		class="w-full sm:w-1/2 flex flex-col justify-center items-center space-y-6 p-12 text-[14px] bg-black">

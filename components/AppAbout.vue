@@ -20,7 +20,7 @@ const partners = [
 <template>
 	<div 
 	class="relative bg-white w-full h-[2300px] sm:h-[1200px] flex justify-center items-start bg-cover bg-bottom"
-	style="background-image: url(OMNI-View.jpg);">
+	style="background-image: url(/OMNI-View.jpg);">
 		<div 
 		class="absolute bg-white w-[80%] h-auto -top-[100px] z-20">
 			<div class="w-full flex flex-col sm:flex-row">
