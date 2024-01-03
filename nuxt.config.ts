@@ -12,18 +12,18 @@ export default defineNuxtConfig({
       //   { property: 'og:description', content: 'Oxi Oyster & Wine Live House提供法國直送生蠔、法式料理，以及多款世界知名紅白酒供您品味' },
       //   { property: 'og:image', content: '/images/welcome_3.webp' }
       // ],
-      // link: [
-      //   { 
-      //     rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' 
-      //   },
-      //   { 
-      //     rel: 'apple-touch-icon', href: '/favicon.svg' 
-      //   },
-      //   {
-      //     rel: "stylesheet",
-      //     href: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css",
-      //   },
-      // ],
+      link: [
+        { 
+          rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' 
+        },
+        { 
+          rel: 'apple-touch-icon', href: '/favicon.ico' 
+        },
+        // {
+        //   rel: "stylesheet",
+        //   href: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css",
+        // },
+      ],
       // script: [
       //   {
       //     src: "https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js",
