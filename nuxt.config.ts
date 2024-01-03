@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     head: {
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
-      title: 'OMNI Nightclub Taipei - 台北夜間娛樂指標 Nightclub in Taipei',
+      title: 'BB TAIPEI',
       meta: [
         { name: 'description', content: 'OMNI 台北夜間娛樂指標．萬象包羅．極致體驗．Award-winning nightclub in Taiwan with VOID Acoustic sound system. 訂位專線 / RSVP：+886-983-803-388 | OMNI Taipei' },
         { property: 'og:title', content: 'OMNI Nightclub Taipei - 台北夜間娛樂指標 Nightclub in Taipei' },
