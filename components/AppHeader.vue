@@ -33,7 +33,7 @@ onBeforeUnmount(() => {
 			:style="{ height: `${headerHeight}px`, backgroundColor: headerBackgroundColor, color: headerTextColor }">
 				<div class="max-w-[80%] w-full flex flex-row justify-between items-center">
 					<NuxtLink to="/">
-						<img src="/logo.png" class="w-[130px]">
+						<img src="/logo.svg" class="w-[50px]">
 					</NuxtLink>
 					<div 
 					class="flex md:hidden cursor-pointer"
