@@ -44,7 +44,7 @@
 		    allowfullscreen="" 
 		    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
 		    title="這就是 OMNI / THIS IS OMNI【官方 PV #thisisOMNI 篇】" 
-		    src="https://www.youtube.com/embed/2iMGoBy9dtQ?original_url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D2iMGoBy9dtQ&iv_load_policy=3&controls=0&color=white&autohide=1&version=3&loop=0&wmode=opaque&rel=0&hd=1&videoid=2iMGoBy9dtQ&autoplay=1&mute=1&html5=1&enablejsapi=1&origin=https%3A%2F%2Fwww.omni-taipei.com&widgetid=1&showinfo=0" 
+		    src="https://www.youtube.com/embed/2iMGoBy9dtQ?original_url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D2iMGoBy9dtQ&iv_load_policy=3&controls=0&color=white&autohide=1&version=3&loop=1&wmode=opaque&rel=0&hd=1&videoid=2iMGoBy9dtQ&autoplay=1&mute=1&html5=1&enablejsapi=1&origin=https%3A%2F%2Fwww.omni-taipei.com&widgetid=1&showinfo=0" 
 		    data-gtm-yt-inspected-15="true">
 		</iframe>
 
