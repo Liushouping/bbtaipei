@@ -38,8 +38,8 @@
 			<h5 class="text-[21px] sm:text-[32px] font-light tracking-[4px] text-[#aa905d]">主題四：高空粉水煙吧</h5>
 		</div>
 		<div 
-		class="w-full sm:w-1/2 h-[600px] bg-cover  bg-center order-1 sm:order-2"
-		style="background-image: url(/title-4.jpeg);">
+		class="w-full sm:w-1/2 h-[600px] bg-cover bg-right order-1 sm:order-2"
+		style="background-image: url(/title-4.jpg);">
 		</div>
 	</div>
 </template>
