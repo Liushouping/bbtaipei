@@ -58,7 +58,7 @@ onBeforeUnmount(() => {
 		    <div 
 		    v-if="menu" 
 		    class="fixed top-0 left-0 w-full h-screen bg-gray-900 flex justify-center items-center z-[101]">
-		      <button @click="menu =! menu" class="fixed top-8 right-4">
+		      <button @click="menu =! menu" class="fixed top-10 right-14">
 		        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
 				  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
 				</svg>
