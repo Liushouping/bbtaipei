@@ -2,7 +2,7 @@
 	<div class="w-full h-full flex flex-col sm:flex-row">
 		<div 
 		class="w-full sm:w-1/2 h-[600px] bg-cover"
-		style="background-image: url(OMNI-Atmosphere.jpg);">
+		style="background-image: url(/title-1.jpeg);">
 		</div>
 		<div 
 		class="w-full sm:w-1/2 flex flex-col justify-center items-center space-y-6 p-12 text-[14px] bg-black">
@@ -17,14 +17,14 @@
 		</div>
 		<div 
 		class="w-full sm:w-1/2 h-[600px] bg-cover order-1 sm:order-2"
-		style="background-image: url(OMNI-Event.jpg);">
+		style="background-image: url(/title-2.jpeg);">
 		</div>
 	</div>
 
 	<div class="w-full h-full flex flex-col sm:flex-row">
 		<div 
 		class="w-full sm:w-1/2 h-[600px] bg-cover"
-		style="background-image: url(OMNI-Atmosphere.jpg);">
+		style="background-image: url(/title-3.jpeg);">
 		</div>
 		<div 
 		class="w-full sm:w-1/2 flex flex-col justify-center items-center space-y-6 p-12 text-[14px] bg-black">
@@ -39,7 +39,7 @@
 		</div>
 		<div 
 		class="w-full sm:w-1/2 h-[600px] bg-cover order-1 sm:order-2"
-		style="background-image: url(OMNI-Event.jpg);">
+		style="background-image: url(/title-4.jpeg);">
 		</div>
 	</div>
 </template>
