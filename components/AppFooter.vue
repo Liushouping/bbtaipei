@@ -3,8 +3,8 @@ const Year = new Date().getFullYear();
 </script>
 <template>
 	<footer 
-	class="w-full h-full md:h-[450px] bg-gray-900 flex justify-center items-center py-20 md:py-0">
-		<div class="max-w-[960px] w-full flex flex-col md:flex-row justify-center items-start px-12 md:px-4 space-x-0 md:space-x-12 space-y-12 md:space-y-0">
+	class="w-full h-full md:h-[550px] bg-gray-900 flex justify-center items-center py-20 md:py-0">
+		<div class="max-w-[80%] w-full flex flex-col md:flex-row justify-center items-start px-2 md:px-4 space-x-0 md:space-x-12 space-y-12 md:space-y-0">
 			<div 
 			class="w-full md:w-1/4">
 				<h5 class="font-bold text-[18px] text-[#aa905d]">CONTACT US</h5>
@@ -54,7 +54,7 @@ const Year = new Date().getFullYear();
 		</div>
 	</footer>
 	<div class="w-full h-[120px] sm:h-[60px] bg-black flex justify-center items-center">
-		<div class="max-w-[960px] w-full flex flex-col sm:flex-row justify-center sm:justify-between items-center px-12 md:px-4 sm:space-y-0 space-y-4">
+		<div class="max-w-[80%] w-full flex flex-col sm:flex-row justify-center sm:justify-between items-center px-12 md:px-4 sm:space-y-0 space-y-4">
 			<ul class="flex flex-row text-white space-x-4 items-center">
 				<li>
 					<a href="https://www.facebook.com/OXI.taipei/" target="_blank"><svg version="1.1" viewBox="0 0 512 512" class="w-4 h-4 fill-white" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M374.244,285.825l14.105,-91.961l-88.233,0l0,-59.677c0,-25.159 12.325,-49.682 51.845,-49.682l40.116,0l0,-78.291c0,0 -36.407,-6.214 -71.213,-6.214c-72.67,0 -120.165,44.042 -120.165,123.775l0,70.089l-80.777,0l0,91.961l80.777,0l0,222.31c16.197,2.541 32.798,3.865 49.709,3.865c16.911,0 33.511,-1.324 49.708,-3.865l0,-222.31l74.128,0Z" style="fill-rule:nonzero;"/></svg></a>
