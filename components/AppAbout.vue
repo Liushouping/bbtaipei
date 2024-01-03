@@ -57,12 +57,12 @@ const partners = [
 					</ul>
 
 					<hr class="bg-black h-[2px] w-full">
-					<div class="flex flex-row flex-wrap flex-row space-x-2 space-y-4 justify-start">
+					<div class="flex flex-row flex-wrap flex-row space-x-0 space-y- justify-start w-full">
 						<img 
 						v-for="(partner, index) in partners"
       					:key="index"
 						:src="partner.src" 
-						class="w-[80px] bg-red-300">
+						class="h-[60px] bg-red-300">
 					</div>
 				</div>
 			</div>
