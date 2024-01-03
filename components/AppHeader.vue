@@ -70,7 +70,7 @@ onBeforeUnmount(() => {
 							<li><NuxtLink to="/" @click="menu =! menu">Photo</NuxtLink></li>
 							<li><NuxtLink to="/" @click="menu =! menu">EXPOSURE</NuxtLink></li>
 							<li class="pt-6">
-								<img src="/logo-w.png" class="w-[130px]">
+								<img src="/logo.svg" class="w-[90px]">
 							</li> 
 						</ul>
 						<ul class="flex flex-row text-white space-x-4 items-center mt-6">

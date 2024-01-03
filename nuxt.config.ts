@@ -14,10 +14,10 @@ export default defineNuxtConfig({
       ],
       link: [
         { 
-          rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' 
+          rel: 'icon', type: 'image/x-icon', href: '/favicon.png' 
         },
         { 
-          rel: 'apple-touch-icon', href: '/favicon.ico' 
+          rel: 'apple-touch-icon', href: '/favicon.png' 
         },
         // {
         //   rel: "stylesheet",
