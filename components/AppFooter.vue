@@ -81,7 +81,7 @@ const Year = new Date().getFullYear();
 					</a>
 				</li>
 			</ul>
-			<p class="text-gray-400 font-light text-[12px]">© Copyright {{ Year }} OMNI Nightclub. All rights reserved</p>
+			<p class="text-gray-400 font-light text-[12px]">© Copyright {{ Year }} OMNI. All rights reserved</p>
 		</div>
 	</div>
 </template>
