@@ -28,7 +28,7 @@ onBeforeUnmount(() => {
 	<div>
 		<header 
 		class="w-full fixed top-0 flex justify-center z-40">
-			<nav class="w-full py-12 px-4 flex justify-center transition-all duration-1000" 
+			<nav class="w-full py-12 flex justify-center transition-all duration-1000" 
 			:class="{ 'shadow-sm': headerShadow }"
 			:style="{ height: `${headerHeight}px`, backgroundColor: headerBackgroundColor, color: headerTextColor }">
 				<div class="max-w-[80%] w-full flex flex-row justify-between items-center">

@@ -37,8 +37,8 @@ onMounted(() => {
 		class="absolute z-20 bg-repeat w-full h-screen opacity-50" 
 		style="background-image: url(/dots-mini-light.png);">
 		</div>
-		<div class="absolute text-gray-50 text-[32px] z-30">
-			<img src="/logo-w.png" class="w-[350px]">
+		<div class="absolute z-30">
+			<img src="/logo-w.png" class="w-[240px] sm:w-[350px]">
 		</div>
 	</div>
 </template>
