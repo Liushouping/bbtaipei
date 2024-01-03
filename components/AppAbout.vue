@@ -44,7 +44,7 @@ const partners = [
 				</div>
 				<div 
 				class="w-full sm:w-1/2 flex flex-col justify-center items-start space-y-6 p-12 text-[14px]">
-					<h5 class="text-[21px] font-medium">OMNI 營業時間 / Operating Hours:</h5>
+					<h5 class="text-[21px] font-medium">BB Taipei 營業時間 / Operating Hours:</h5>
 					<ul class="text-[14px] font-light">
 						<li>每週三、四、五、六、日</li>
 						<li class="mb-4">22:30 ～ 04:30</li>

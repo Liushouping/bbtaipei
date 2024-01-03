@@ -7,9 +7,9 @@ export default defineNuxtConfig({
       viewport: 'width=device-width, initial-scale=1',
       title: 'BB TAIPEI',
       meta: [
-        { name: 'description', content: 'OMNI 台北夜間娛樂指標．萬象包羅．極致體驗．Award-winning nightclub in Taiwan with VOID Acoustic sound system. 訂位專線 / RSVP：+886-983-803-388 | OMNI Taipei' },
-        { property: 'og:title', content: 'OMNI Nightclub Taipei - 台北夜間娛樂指標 Nightclub in Taipei' },
-        { property: 'og:description', content: 'OMNI 台北夜間娛樂指標．萬象包羅．極致體驗．Award-winning nightclub in Taiwan with VOID Acoustic sound system. 訂位專線 / RSVP：+886-983-803-388 | OMNI Taipei' },
+        { name: 'description', content: 'BB Taipei 台北夜間娛樂指標．萬象包羅．極致體驗．Award-winning nightclub in Taiwan with VOID Acoustic sound system. 訂位專線 / RSVP：+886-983-803-388 | BB Taipei' },
+        { property: 'og:title', content: 'BB Taipei Taipei - 台北夜間娛樂指標 Nightclub in Taipei' },
+        { property: 'og:description', content: 'BB Taipei 台北夜間娛樂指標．萬象包羅．極致體驗．Award-winning nightclub in Taiwan with VOID Acoustic sound system. 訂位專線 / RSVP：+886-983-803-388 | BB Taipei' },
         { property: 'og:image', content: '/OMNI_LOGO_WHITE_RGB.png' }
       ],
       link: [
