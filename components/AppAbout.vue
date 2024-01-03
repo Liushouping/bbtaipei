@@ -32,7 +32,7 @@ const partners = [
 					<p class="font-light">戶外更藏有亞洲首個粉紅沙灘水煙吧。極具特色。普開幕即吸引美日韓的朋友入台朝聖。邀請您每週末ㄧ同見證台灣新式紅魔紡在世界的崛起。</p>
 				</div>
 				<div 
-				class="w-full sm:w-1/2 h-[600px] bg-cover"
+				class="w-full sm:w-1/2 h-[600px] bg-cover bg-center"
 				style="background-image: url(OMNI-Atmosphere.jpg);">
 				</div>
 			</div>
