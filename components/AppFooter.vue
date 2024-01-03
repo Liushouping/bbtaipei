@@ -13,13 +13,17 @@ const Year = new Date().getFullYear();
 						一般查詢 | General Inquiry: 
 					</li>
 					<li class="text-gray-400 font-light">
-						info(a)omni-taipei.com
+						<a href="mailto:info(a)omni-taipei.com" target="_blank">
+							info(a)omni-taipei.com
+						</a>
 					</li>
 					<li class="text-gray-400 font-light pt-4">
 						訂位 | RSVP: 
 					</li>
 					<li class="text-gray-400 font-light">
-						+886 983 803 388
+						<a href="tel:+886983803388" target="_blank">
+							+886 983 803 388
+						</a>
 					</li>
 					<li class="text-gray-400 font-light">
 						info at omni-taipei.com
@@ -28,7 +32,9 @@ const Year = new Date().getFullYear();
 						客服專線 | Customer Service:
 					</li>
 					<li class="text-gray-400 font-light">
-						+886 2 2772 1000
+						<a href="tel:+886227721000" target="_blank">
+							+886 2 2772 1000
+						</a>
 					</li>
 				</ul>
 			</div>
