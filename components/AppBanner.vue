@@ -1,18 +1,27 @@
 <script setup>
 onMounted(() => {
-	const player = new YT.Player('player_4620_1851317283_406218855', {
-    events: {
-      'onReady': function(event) {
-        event.target.playVideo(); // 自动播放
-      },
-      'onStateChange': function(event) {
-        // 在视频结束时重新播放
-        if (event.data === YT.PlayerState.ENDED) {
-          event.target.playVideo();
+// 使用全局回调函数，确保 API 加载完成
+  window.onYouTubeIframeAPIReady = function () {
+    const player = new YT.Player('player_4620_1851317283_406218855', {
+      events: {
+        'onReady': function(event) {
+          event.target.playVideo(); // 自动播放
+        },
+        'onStateChange': function(event) {
+          // 在视频结束时重新播放
+          if (event.data === YT.PlayerState.ENDED) {
+            event.target.playVideo();
+          }
         }
       }
-    }
-  });
+    });
+  };
+
+  // 动态插入 YouTube API 脚本
+  const tag = document.createElement('script');
+  tag.src = 'https://www.youtube.com/iframe_api';
+  const firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 });
 </script>
 <template>
