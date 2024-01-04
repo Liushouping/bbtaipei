@@ -39,15 +39,15 @@ const Year = new Date().getFullYear();
 			class="w-full lg:w-1/3">
 				<h5 class="font-medium text-[18px] text-[#aa905d] tracking-[1px]">CONTACT US</h5>
 				<ul class="mt-8 text-[14px] space-y-2">
-					<li class="text-gray-400 font-light">
+<!-- 					<li class="text-gray-400 font-light">
 						訂位 | RSVP: 
 					</li>
 					<li class="text-gray-400 font-light">
 						<a href="tel:+886900630948" target="_blank">
 							+886 900630948
 						</a>
-					</li>
-					<li class="text-gray-400 font-light pt-4">
+					</li> -->
+					<li class="text-gray-400 font-light">
 						電子信箱: 
 					</li>
 					<li class="text-gray-400 font-light">

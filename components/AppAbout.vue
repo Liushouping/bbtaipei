@@ -56,8 +56,8 @@ const partners = [
 <!-- 						<li>Wed, Thurs, Fri., and Sun.</li>
 						<li class="mb-4">22:30 ～ 04:30</li> -->
 
-						<li>訂位 / RSVP:</li>
-						<li class="mb-4">+886 900630948</li>
+<!-- 						<li>訂位 / RSVP:</li>
+						<li class="mb-4">+886 900630948</li> -->
 						<li class="bg-gray-900 px-4 py-2 text-gray-50 rounded-md flex flex-row space-x-2 items-center">
 							<NuxtLink to="https://www.facebook.com/profile.php?id=100095099185394" target="_blank">近期活動 / Latest Events</NuxtLink>
 							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
