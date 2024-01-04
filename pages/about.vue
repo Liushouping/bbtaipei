@@ -3,7 +3,7 @@
 		<!-- -->
 		<AppHeader />
 		<!-- -->
-		<AppPhoto />
+		<AppToabout />
 		<!-- -->
 		<AppFooter />
 	</div>

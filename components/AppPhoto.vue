@@ -105,8 +105,8 @@ onMounted(() => {
       			:key="index"
 			    data-fancybox="gallery" 
 			    :data-src="image.src"
-			    class="w-full h-full cursor-zoom-in">
-					<img :src="image.src" :alt="image.alt" class="w-full">
+			    class="cursor-zoom-in">
+					<img :src="image.src" :alt="image.alt" loading="lazy">
 				</a>
 			</div>
 		</div>
