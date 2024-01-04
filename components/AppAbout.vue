@@ -5,6 +5,7 @@
 	id="about"
 	class="relative bg-white w-full h-[2300px] sm:h-[1800px] flex justify-center items-start bg-cover bg-left bg-bottom"
 	style="background-image: url(/bg.jpg);">
+		<div class="bg-black/10 backdrop-blur-xl w-full h-full absolute z-10"></div>
 		<div 
 		class="absolute w-[80%] h-auto -top-[125px] z-20 flex flex-col">
 			<div class="w-full flex justify-end items-center space-x-2">
