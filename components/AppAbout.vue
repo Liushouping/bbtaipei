@@ -20,8 +20,8 @@ const partners = [
 <template>
 	<div 
 	id="about"
-	class="relative bg-white w-full h-[2300px] sm:h-[1200px] flex justify-center items-start bg-cover bg-bottom"
-	style="background-image: url(/OMNI-View.jpg);">
+	class="relative bg-white w-full h-[2300px] sm:h-[1200px] flex justify-center items-start bg-cover bg-left bg-bottom"
+	style="background-image: url(/bg.jpg);">
 		<div 
 		class="absolute bg-white w-[80%] h-auto -top-[100px] z-20">
 			<div class="w-full flex flex-col lg:flex-row">
@@ -66,14 +66,14 @@ const partners = [
 						</li>
 					</ul>
 
-					<hr class="bg-black h-[2px] w-full">
+<!-- 					<hr class="bg-black h-[2px] w-full">
 					<div class="flex flex-row flex-wrap flex-row space-x-0 space-y- justify-start w-full">
 						<img 
 						v-for="(partner, index) in partners"
       					:key="index"
 						:src="partner.src" 
 						class="h-[60px] bg-red-300">
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>

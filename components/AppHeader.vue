@@ -35,7 +35,7 @@ onBeforeUnmount(() => {
 					<NuxtLink to="/">
 						<img src="/logo.svg" class="w-[50px]">
 					</NuxtLink>
-					<div 
+<!-- 					<div 
 					class="flex md:hidden cursor-pointer"
 					@click="menu =! menu">
 						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" 
@@ -48,8 +48,8 @@ onBeforeUnmount(() => {
 						<li><NuxtLink to="/">Home</NuxtLink></li>
 						<li><NuxtLink to="/about">About</NuxtLink></li>
 						<li><NuxtLink to="/photo">Photo</NuxtLink></li>
-						<!-- <li><NuxtLink to="/exposure">Exposure</NuxtLink></li> -->
-					</ul>
+						<li><NuxtLink to="/exposure">Exposure</NuxtLink></li>
+					</ul> -->
 				</div>
 			</nav>
 		</header>

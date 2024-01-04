@@ -67,9 +67,9 @@ const Year = new Date().getFullYear();
 			class="w-full lg:w-1/5">
 				<h5 class="font-medium text-[18px] text-[#aa905d] tracking-[1px]">加LINE享優惠</h5>
 				
-				<a href="https://line.me/R/ti/p/nkCjo_6ffo" target="_blank">
+<!-- 				<a href="https://line.me/R/ti/p/nkCjo_6ffo" target="_blank">
 					<img class="mt-8 w-full md:w-[75%]" src="/line.png">
-				</a>
+				</a> -->
 			</div>
 <!-- 			<div 
 			class="w-full lg:w-1/5 flex flex-col space-y-2">
