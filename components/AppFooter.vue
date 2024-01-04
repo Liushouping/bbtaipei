@@ -18,20 +18,20 @@ const Year = new Date().getFullYear();
 							Blueballs.taipei@gmail.com
 						</a>
 					</li>
-					<li class="text-gray-400 font-light pt-4">
+<!-- 					<li class="text-gray-400 font-light pt-4">
 						訂位 | RSVP: 
 					</li>
 					<li class="text-gray-400 font-light">
 						<a href="tel:+886983803388" target="_blank">
 							+886 983 803 388
 						</a>
-					</li>
+					</li> -->
 					<li class="text-gray-400 font-light">
 						客服專線 | Customer Service:
 					</li>
 					<li class="text-gray-400 font-light">
-						<a href="tel:+886227721000" target="_blank">
-							+886 2 2772 1000
+						<a href="tel:0227236666" target="_blank">
+							02-2723-6666
 						</a>
 					</li>
 				</ul>

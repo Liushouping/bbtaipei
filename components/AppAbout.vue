@@ -49,14 +49,15 @@ const partners = [
 				class="w-full sm:w-1/2 flex flex-col justify-center items-start space-y-6 p-12 text-[14px]">
 					<h5 class="text-[21px] font-medium">BB Taipei 營業時間 / Operating Hours:</h5>
 					<ul class="text-[14px] font-light">
-						<li>每週三、四、五、六、日</li>
-						<li class="mb-4">22:30 ～ 04:30</li>
+						<li>每週日、一、三、四、五、六</li>
+						<li class="mb-4">22:00 ～ 04:00</li>
+						<li class="mb-4">每週二 公休</li>
 
-						<li>Wed, Thurs, Fri., and Sun.</li>
-						<li class="mb-4">22:30 ～ 04:30</li>
+<!-- 						<li>Wed, Thurs, Fri., and Sun.</li>
+						<li class="mb-4">22:30 ～ 04:30</li> -->
 
 						<li>訂位 / RSVP:</li>
-						<li class="mb-4">+886-983-803-388</li>
+						<li class="mb-4">02-2723-6666</li>
 						<li class="bg-gray-900 px-4 py-2 text-gray-50 rounded-md flex flex-row space-x-2 items-center">
 							<NuxtLink to="https://www.facebook.com/profile.php?id=100095099185394" target="_blank">近期活動 / Latest Events</NuxtLink>
 							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
