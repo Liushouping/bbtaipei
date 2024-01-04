@@ -1,7 +1,7 @@
 <script setup>
 const GoTop = ref(false);
 const GoScroll = () => {
-  GoTop.value = scrollY > 240;
+  GoTop.value = scrollY > 640;
 };
 function Top() {
 	document.body.scrollTop = 0;
