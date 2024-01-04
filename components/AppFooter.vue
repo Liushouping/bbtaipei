@@ -40,7 +40,7 @@ const Year = new Date().getFullYear();
 			class="w-full md:w-1/4">
 				<h5 class="font-medium text-[18px] text-[#aa905d] tracking-[1px]">LOCATION</h5>
 				<ul class="mt-8 text-gray-400 font-light text-[14px] flex flex-col justify-center items-start space-y-4">
-					<li>台灣台北市忠孝東路四段201號5樓 
+					<li>台灣台北市忠孝東路四段201號5樓 <br>
 					5F, No. 201, Sec. 4, Zhong Xiao East Road 
 					Taipei, Taiwan</li>
 					<li>
