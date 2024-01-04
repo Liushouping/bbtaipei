@@ -1,5 +1,5 @@
 <script setup>
-const headerHeight = ref(20);
+// const headerHeight = ref(30);
 const headerBackgroundColor = ref('transparent');
 const headerTextColor = ref("white");
 const headerShadow = ref(false);
@@ -28,9 +28,9 @@ onBeforeUnmount(() => {
 	<div>
 		<header 
 		class="w-full fixed top-0 flex justify-center z-40">
-			<nav class="w-full py-12 flex justify-center transition-all duration-1000" 
+			<nav class="h-[30px] w-full pt-16 pb-10 flex justify-center transition-all duration-1000" 
 			:class="{ 'shadow-sm': headerShadow }"
-			:style="{ height: `${headerHeight}px`, backgroundColor: headerBackgroundColor, color: headerTextColor }">
+			:style="{ backgroundColor: headerBackgroundColor, color: headerTextColor }">
 				<div class="max-w-[80%] w-full flex flex-row justify-between items-center">
 					<NuxtLink to="/">
 						<img src="/logo.svg" class="w-[50px]">
@@ -46,7 +46,7 @@ onBeforeUnmount(() => {
 					<ul 
 					class="hidden md:flex space-x-2 sm:space-x-6 font-light text-gray-50 text-[14px]">
 						<li><NuxtLink to="/">Home</NuxtLink></li>
-						<li><NuxtLink to="/">About</NuxtLink></li>
+						<li><NuxtLink to="#about">About</NuxtLink></li>
 						<li><NuxtLink to="/photo">Photo</NuxtLink></li>
 						<li><NuxtLink to="/">Exposure</NuxtLink></li>
 					</ul>
@@ -70,7 +70,7 @@ onBeforeUnmount(() => {
 			      <div class="flex flex-col justify-center items-center">
 			      	<ul class="flex flex-col justify-center items-center text-white space-y-6 font-light text-[14px]">
 			      		<li><NuxtLink to="/" @click="menu =! menu">Home</NuxtLink></li>
-								<li><NuxtLink to="/" @click="menu =! menu">About</NuxtLink></li>
+								<li><NuxtLink to="#about" @click="menu =! menu">About</NuxtLink></li>
 								<li><NuxtLink to="/photo" @click="menu =! menu">Photo</NuxtLink></li>
 								<li><NuxtLink to="/" @click="menu =! menu">Exposure</NuxtLink></li>
 								<li class="pt-6">

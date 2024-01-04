@@ -19,6 +19,7 @@ const partners = [
 </script>
 <template>
 	<div 
+	id="about"
 	class="relative bg-white w-full h-[2300px] sm:h-[1200px] flex justify-center items-start bg-cover bg-bottom"
 	style="background-image: url(/OMNI-View.jpg);">
 		<div 
