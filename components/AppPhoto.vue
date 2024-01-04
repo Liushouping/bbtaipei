@@ -94,9 +94,10 @@ onMounted(() => {
 		<div class="absolute z-10 bg-gray-900/70 w-full h-full">
 		</div>
 		<div class="max-w-[80%] w-full h-full py-36 z-20">
-			<div class="flex flex-row items-center justify-start h-full w-full space-x-6">
+			<div class="flex flex-row items-center h-full w-full space-x-6">
 				<h5 class="text-[24px] font-light text-gray-50 mb-6 tracking-[1px]">Photo</h5>
 				<hr class="w-full h-4 opacity-10">
+				<img src="/logo.svg" width="35px">
 			</div>
 			<div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
 				<a 
