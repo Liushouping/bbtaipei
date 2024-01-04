@@ -43,13 +43,13 @@ onBeforeUnmount(() => {
 						  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
 						</svg>
 					</div>
-<!-- 					<ul 
-					class="hidden md:flex space-x-2 sm:space-x-6 font-bold text-[14px]">
-						<li><NuxtLink to="/">HOME</NuxtLink></li>
+					<ul 
+					class="hidden md:flex space-x-2 sm:space-x-6 font-light text-gray-50 text-[14px]">
+						<li><NuxtLink to="/">Home</NuxtLink></li>
 						<li><NuxtLink to="/">About</NuxtLink></li>
 						<li><NuxtLink to="/">Photo</NuxtLink></li>
-						<li><NuxtLink to="/">EXPOSURE</NuxtLink></li>
-					</ul> -->
+						<li><NuxtLink to="/">Exposure</NuxtLink></li>
+					</ul>
 				</div>
 			</nav>
 		</header>
@@ -68,11 +68,11 @@ onBeforeUnmount(() => {
 							</svg>
 			      </button>
 			      <div class="flex flex-col justify-center items-center">
-			      	<ul class="flex flex-col justify-center items-center text-white space-y-6 font-bold text-[14px]">
-			      		<li><NuxtLink to="/" @click="menu =! menu">HOME</NuxtLink></li>
+			      	<ul class="flex flex-col justify-center items-center text-white space-y-6 font-light text-[14px]">
+			      		<li><NuxtLink to="/" @click="menu =! menu">Home</NuxtLink></li>
 								<li><NuxtLink to="/" @click="menu =! menu">About</NuxtLink></li>
 								<li><NuxtLink to="/" @click="menu =! menu">Photo</NuxtLink></li>
-								<li><NuxtLink to="/" @click="menu =! menu">EXPOSURE</NuxtLink></li>
+								<li><NuxtLink to="/" @click="menu =! menu">Exposure</NuxtLink></li>
 								<li class="pt-6">
 									<img src="/logo.svg" class="w-[90px]">
 								</li> 
