@@ -47,7 +47,7 @@ onBeforeUnmount(() => {
 					class="hidden md:flex space-x-2 sm:space-x-6 font-light text-gray-50 text-[14px]">
 						<li><NuxtLink to="/">Home</NuxtLink></li>
 						<li><NuxtLink to="/">About</NuxtLink></li>
-						<li><NuxtLink to="/">Photo</NuxtLink></li>
+						<li><NuxtLink to="/photo">Photo</NuxtLink></li>
 						<li><NuxtLink to="/">Exposure</NuxtLink></li>
 					</ul>
 				</div>
@@ -71,7 +71,7 @@ onBeforeUnmount(() => {
 			      	<ul class="flex flex-col justify-center items-center text-white space-y-6 font-light text-[14px]">
 			      		<li><NuxtLink to="/" @click="menu =! menu">Home</NuxtLink></li>
 								<li><NuxtLink to="/" @click="menu =! menu">About</NuxtLink></li>
-								<li><NuxtLink to="/" @click="menu =! menu">Photo</NuxtLink></li>
+								<li><NuxtLink to="/photo" @click="menu =! menu">Photo</NuxtLink></li>
 								<li><NuxtLink to="/" @click="menu =! menu">Exposure</NuxtLink></li>
 								<li class="pt-6">
 									<img src="/logo.svg" class="w-[90px]">

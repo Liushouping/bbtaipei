@@ -14,8 +14,8 @@ const Year = new Date().getFullYear();
 						一般查詢 | General Inquiry: 
 					</li>
 					<li class="text-gray-400 font-light">
-						<a href="mailto:info(a)omni-taipei.com" target="_blank">
-							info(a)omni-taipei.com
+						<a href="mailto:Blueballs.taipei@gmail.com" target="_blank">
+							Blueballs.taipei@gmail.com
 						</a>
 					</li>
 					<li class="text-gray-400 font-light pt-4">
@@ -40,11 +40,10 @@ const Year = new Date().getFullYear();
 			class="w-full md:w-1/4">
 				<h5 class="font-medium text-[18px] text-[#aa905d] tracking-[1px]">LOCATION</h5>
 				<ul class="mt-8 text-gray-400 font-light text-[14px] flex flex-col justify-center items-start space-y-4">
-					<li>台灣台北市忠孝東路四段201號5樓 <br>
-					5F, No. 201, Sec. 4, Zhong Xiao East Road 
-					Taipei, Taiwan</li>
+					<li>台灣台北市信義區松壽路12號10樓 <br>
+					 Sinyi District, Taipei, Taiwan, 110</li>
 					<li>
-						<NuxtLink to="https://maps.app.goo.gl/B8KEhHkCv1eSu3Nm6" target="_blank">
+						<NuxtLink to="https://www.google.com/maps/dir//110%E5%8F%B0%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%E6%9D%BE%E5%A3%BD%E8%B7%AF12%E8%99%9F" target="_blank">
 							<div class="bg-gray-800 px-4 py-2 text-gray-50 rounded-md flex flex-row items-center tracking-[2px]">
 								立即導航
 								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
