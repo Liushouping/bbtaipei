@@ -7,10 +7,10 @@ export default defineNuxtConfig({
       viewport: 'width=device-width, initial-scale=1',
       title: 'BB TAIPEI',
       meta: [
-        { name: 'description', content: 'BB Taipei 台北夜間娛樂指標' },
-        { property: 'og:title', content: 'BB Taipei - 台北夜間娛樂指標 Nightclub in Taipei' },
-        { property: 'og:description', content: 'BB Taipei 台北夜間娛樂指標．萬象包羅．極致體驗．Award-winning nightclub in Taiwan with VOID Acoustic sound system. | BB Taipei' },
-        { property: 'og:image', content: '/title-3.jpg' }
+        { name: 'description', content: 'BB Taipei 台北夜間娛樂指標 | BB Taipei' },
+        { property: 'og:title', content: 'BB TAIPEI' },
+        { property: 'og:description', content: 'BB Taipei 台北夜間娛樂指標 | BB Taipei' },
+        { property: 'og:image', content: '/og-img.jpeg' }
       ],
       link: [
         { 
