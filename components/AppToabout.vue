@@ -40,7 +40,8 @@
 		</div> -->
 		<div 
 		class="max-w-[80%] w-full h-full py-36 z-20 text-white flex flex-col space-y-6 justify-center items-center">
-			<div class="w-full h-full flex flex-row space-y-6 lg:space-y-0 space-x-0 lg:space-x-16 flex flex-col lg:flex-row justify-center items-center">
+			<div 
+			class="w-full h-full flex flex-row space-y-6 lg:space-y-0 space-x-0 lg:space-x-16 flex flex-col lg:flex-row justify-center items-start">
 				<div class="w-full lg:w-1/2">
 					<ul>
 						<li><h5 class="text-gray-50 text-[21px] font-medium mb-6">OMNI，區區四個字母，卻涵蓋了天地四方</h5></li>
@@ -56,7 +57,7 @@
 			</div>
 
 			<div 
-			class="w-full h-full flex flex-row space-y-6 lg:space-y-0 space-x-0 lg:space-x-16 flex flex-col lg:flex-row justify-center items-center">
+			class="w-full h-full flex flex-row space-y-6 lg:space-y-0 space-x-0 lg:space-x-16 flex flex-col lg:flex-row justify-center items-start">
 				<div class="w-full lg:w-1/2 order-2 lg:order-1">
 					<img src="/toabout-2.jpg" class="w-full">
 				</div>
@@ -72,7 +73,7 @@
 			</div>
 
 			<div 
-			class="w-full h-full flex flex-row space-y-6 lg:space-y-0 space-x-0 lg:space-x-16 flex flex-col lg:flex-row justify-center items-center">
+			class="w-full h-full flex flex-row space-y-6 lg:space-y-0 space-x-0 lg:space-x-16 flex flex-col lg:flex-row justify-center items-start">
 				<div class="w-full lg:w-1/2">
 					<ul>
 						<li><h5 class="text-gray-50 text-[21px] font-medium mb-6">OMNI，區區四個字母，卻涵蓋了天地四方</h5></li>
