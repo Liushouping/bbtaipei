@@ -10,7 +10,7 @@ export default defineNuxtConfig({
         { name: 'description', content: 'BB Taipei 台北夜間娛樂指標 | BB Taipei' },
         { property: 'og:title', content: 'BB TAIPEI' },
         { property: 'og:description', content: 'BB Taipei 台北夜間娛樂指標 | BB Taipei' },
-        { property: 'og:image', content: '/og-img.jpeg' }
+        { property: 'og:image', content: 'https://bbtaipei.com/og-img.jpeg' }
       ],
       link: [
         { 
