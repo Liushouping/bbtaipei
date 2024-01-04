@@ -15,7 +15,7 @@ function handlePlay() {
      <video 
      @click="handlePlay"
      poster="/title-3.jpg"
-     class="min-w-full min-h-full absolute z-10 object-cover bg-gray-900" src="/BBtunnelRed.mp4" type="video/mp4" autoplay muted loop webkit-playsinline playsinline></video>
+     class="min-w-full min-h-full absolute z-10 object-cover bg-gray-900" src="/bbbanner.mp4" type="video/mp4" autoplay muted loop webkit-playsinline playsinline></video>
 		<!-- -->
 		<div 
 		class="absolute z-20 bg-repeat w-full h-[120vh] opacity-50" 
