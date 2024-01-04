@@ -18,14 +18,14 @@ const Year = new Date().getFullYear();
 							Blueballs.taipei@gmail.com
 						</a>
 					</li>
-<!-- 					<li class="text-gray-400 font-light pt-4">
+					<li class="text-gray-400 font-light pt-4">
 						訂位 | RSVP: 
 					</li>
 					<li class="text-gray-400 font-light">
-						<a href="tel:+886983803388" target="_blank">
-							+886 983 803 388
+						<a href="tel:+886900630948" target="_blank">
+							+886 900630948
 						</a>
-					</li> -->
+					</li>
 					<li class="text-gray-400 font-light">
 						客服專線 | Customer Service:
 					</li>
@@ -43,7 +43,7 @@ const Year = new Date().getFullYear();
 					<li>台灣台北市信義區松壽路12號10樓 <br>
 					 Sinyi District, Taipei, Taiwan, 110</li>
 					<li>
-						<NuxtLink to="https://www.google.com/maps/dir//110%E5%8F%B0%E5%8C%97%E5%B8%82%E4%BF%A1%E7%BE%A9%E5%8D%80%E6%9D%BE%E5%A3%BD%E8%B7%AF12%E8%99%9F" target="_blank">
+						<NuxtLink to="https://maps.google.com/maps/dir//ATT+4+FUN+信義店+110台北市信義區松壽路12號/@25.0353558,121.5659995,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x3442abb0b0c4fc8d:0x60f9b663d6a4deb1" target="_blank">
 							<div class="bg-gray-800 px-4 py-2 text-gray-50 rounded-md flex flex-row items-center tracking-[2px]">
 								立即導航
 								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
