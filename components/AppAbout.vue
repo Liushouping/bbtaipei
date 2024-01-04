@@ -32,15 +32,15 @@ const partners = [
 					<p class="font-light">戶外更藏有亞洲首個粉紅沙灘水煙吧。極具特色。普開幕即吸引美日韓的朋友入台朝聖。邀請您每週末ㄧ同見證台灣新式紅魔紡在世界的崛起。</p>
 				</div>
 				<div 
-				class="w-full sm:w-1/2 h-[600px] bg-cover bg-center"
-				style="background-image: url(OMNI-Atmosphere.jpg);">
+				class="w-full sm:w-1/2 h-[600px] bg-cover bg-top"
+				style="background-image: url(about-1.jpg);">
 				</div>
 			</div>
 			<!-- -->
 			<div class="w-full flex flex-col sm:flex-row">
 				<div 
-				class="w-full sm:w-1/2 h-[600px] bg-cover"
-				style="background-image: url(OMNI-Event.jpg);">
+				class="w-full sm:w-1/2 h-[600px] bg-cover bg-center"
+				style="background-image: url(about-2.jpg);">
 				</div>
 				<div 
 				class="w-full sm:w-1/2 flex flex-col justify-center items-start space-y-6 p-12 text-[14px]">

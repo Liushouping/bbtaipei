@@ -1,3 +1,12 @@
+<script setup>
+
+onMounted(() => {
+
+});
+onBeforeUnmount(() => {
+
+});
+</script>
 <template>
 	<div class="w-full h-full flex flex-col sm:flex-row">
 		<div 
