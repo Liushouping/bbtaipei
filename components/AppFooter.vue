@@ -56,7 +56,7 @@ const Year = new Date().getFullYear();
 						</a>
 					</li>
 					<li class="text-gray-400 font-light">
-						聯絡專線:
+						聯絡電話:
 					</li>
 					<li class="text-gray-400 font-light">
 						<a href="tel:0227236666" target="_blank">
