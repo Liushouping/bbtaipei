@@ -7,7 +7,7 @@ const Year = new Date().getFullYear();
 		<div 
 		class="max-w-[80%] w-full flex flex-col lg:flex-row justify-center items-start px-2 lg:px-4 space-x-0 lg:space-x-12 space-y-12 lg:space-y-0">
 			<div 
-			class="w-full lg:w-1/4">
+			class="w-full lg:w-1/5">
 				<h5 class="font-medium text-[18px] text-[#aa905d] tracking-[1px]">CONTACT US</h5>
 				<ul class="mt-8 text-[14px] space-y-2">
 					<li class="text-gray-400 font-light">
@@ -37,7 +37,7 @@ const Year = new Date().getFullYear();
 				</ul>
 			</div>
 			<div 
-			class="w-full lg:w-1/4">
+			class="w-full lg:w-1/5">
 				<h5 class="font-medium text-[18px] text-[#aa905d] tracking-[1px]">LOCATION</h5>
 				<ul class="mt-8 text-gray-400 font-light text-[14px] flex flex-col justify-center items-start space-y-4">
 					<li>台灣台北市信義區松壽路12號10樓 <br>
@@ -55,18 +55,27 @@ const Year = new Date().getFullYear();
 				</ul>
 			</div>
 			<div 
-			class="w-full lg:w-1/4">
+			class="w-full lg:w-1/5">
+				<h5 class="font-medium text-[18px] text-[#aa905d] tracking-[1px]">OPERATING HOURS</h5>
+				<ul class="mt-8 text-gray-400 font-light text-[14px] flex flex-col justify-center items-start space-y-2">
+					<li>每週日、一、三、四、五、六</li>
+					<li>22:00 ～ 04:00</li>
+					<li class="pt-4">每週二 公休</li>
+				</ul>
+			</div>
+			<div 
+			class="w-full lg:w-1/5">
 				<h5 class="font-medium text-[18px] text-[#aa905d] tracking-[1px]">加LINE享優惠</h5>
 				
 				<a href="https://line.me/R/ti/p/nkCjo_6ffo" target="_blank">
 					<img class="mt-8 w-full md:w-[75%]" src="/line.png">
 				</a>
 			</div>
-			<div 
-			class="w-full lg:w-1/4 flex flex-col space-y-2">
+<!-- 			<div 
+			class="w-full lg:w-1/5 flex flex-col space-y-2">
 				<img class="max-w-[240px]" src="/footer-par-1.png">
 				<img class="max-w-[240px]" src="/footer-par-2.png">
-			</div>
+			</div> -->
 		</div>
 	</footer>
 	<div class="w-full h-[120px] sm:h-[60px] bg-black flex justify-center items-center">
