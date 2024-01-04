@@ -5,9 +5,9 @@ const Year = new Date().getFullYear();
 	<footer 
 	class="w-full h-full bg-gray-900 flex justify-center items-center py-20">
 		<div 
-		class="max-w-[80%] w-full flex flex-col md:flex-row justify-center items-start px-2 md:px-4 space-x-0 md:space-x-12 space-y-12 md:space-y-0">
+		class="max-w-[80%] w-full flex flex-col lg:flex-row justify-center items-start px-2 lg:px-4 space-x-0 lg:space-x-12 space-y-12 lg:space-y-0">
 			<div 
-			class="w-full md:w-1/4">
+			class="w-full lg:w-1/4">
 				<h5 class="font-medium text-[18px] text-[#aa905d] tracking-[1px]">CONTACT US</h5>
 				<ul class="mt-8 text-[14px] space-y-2">
 					<li class="text-gray-400 font-light">
@@ -37,14 +37,14 @@ const Year = new Date().getFullYear();
 				</ul>
 			</div>
 			<div 
-			class="w-full md:w-1/4">
+			class="w-full lg:w-1/4">
 				<h5 class="font-medium text-[18px] text-[#aa905d] tracking-[1px]">LOCATION</h5>
 				<ul class="mt-8 text-gray-400 font-light text-[14px] flex flex-col justify-center items-start space-y-4">
 					<li>台灣台北市信義區松壽路12號10樓 <br>
 					 Sinyi District, Taipei, Taiwan, 110</li>
 					<li>
 						<NuxtLink to="https://maps.google.com/maps/dir//ATT+4+FUN+信義店+110台北市信義區松壽路12號/@25.0353558,121.5659995,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x3442abb0b0c4fc8d:0x60f9b663d6a4deb1" target="_blank">
-							<div class="bg-gray-800 px-4 py-2 text-gray-50 rounded-md flex flex-row items-center tracking-[2px]">
+							<div class="bg-gray-800 px-4 py-2 text-gray-50 rounded-lg flex flex-row items-center tracking-[2px]">
 								立即導航
 								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
 									<path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
@@ -55,22 +55,22 @@ const Year = new Date().getFullYear();
 				</ul>
 			</div>
 			<div 
-			class="w-full md:w-1/4">
+			class="w-full lg:w-1/4">
 				<h5 class="font-medium text-[18px] text-[#aa905d] tracking-[1px]">加LINE享優惠</h5>
 				
 				<a href="https://line.me/R/ti/p/nkCjo_6ffo" target="_blank">
-					<img class="mt-8 w-full 2xl:w-[75%]" src="/line.png">
+					<img class="mt-8 w-full md:w-[75%]" src="/line.png">
 				</a>
 			</div>
 			<div 
-			class="w-full md:w-1/4 flex flex-col space-y-2">
+			class="w-full lg:w-1/4 flex flex-col space-y-2">
 				<img class="max-w-[240px]" src="/footer-par-1.png">
 				<img class="max-w-[240px]" src="/footer-par-2.png">
 			</div>
 		</div>
 	</footer>
 	<div class="w-full h-[120px] sm:h-[60px] bg-black flex justify-center items-center">
-		<div class="sm:max-w-[80%] w-full flex flex-col sm:flex-row justify-center sm:justify-between items-center px-12 md:px-4 sm:space-y-0 space-y-4">
+		<div class="sm:max-w-[80%] w-full flex flex-col sm:flex-row justify-center sm:justify-between items-center px-12 lg:px-4 sm:space-y-0 space-y-4">
 			<ul class="flex flex-row text-white space-x-4 items-center">
 				<li>
 					<a href="https://www.facebook.com/profile.php?id=100095099185394" target="_blank"><svg version="1.1" viewBox="0 0 512 512" class="w-4 h-4 fill-white" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M374.244,285.825l14.105,-91.961l-88.233,0l0,-59.677c0,-25.159 12.325,-49.682 51.845,-49.682l40.116,0l0,-78.291c0,0 -36.407,-6.214 -71.213,-6.214c-72.67,0 -120.165,44.042 -120.165,123.775l0,70.089l-80.777,0l0,91.961l80.777,0l0,222.31c16.197,2.541 32.798,3.865 49.709,3.865c16.911,0 33.511,-1.324 49.708,-3.865l0,-222.31l74.128,0Z" style="fill-rule:nonzero;"/></svg></a>
