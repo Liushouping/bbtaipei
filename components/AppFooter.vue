@@ -39,10 +39,16 @@ const Year = new Date().getFullYear();
 			<div 
 			class="w-full md:w-1/4">
 				<h5 class="font-medium text-[18px] text-[#aa905d] tracking-[1px]">LOCATION</h5>
-				<ul class="mt-8 text-gray-400 font-light text-[14px]">
+				<ul class="mt-8 text-gray-400 font-light text-[14px] flex flex-col justify-center items-start space-y-4">
 					<li>台灣台北市忠孝東路四段201號5樓 
 					5F, No. 201, Sec. 4, Zhong Xiao East Road 
 					Taipei, Taiwan</li>
+					<li class="bg-gray-800 px-4 py-2 text-gray-50 rounded-md flex flex-row space-x-2 items-center">
+						<NuxtLink to="https://maps.app.goo.gl/B8KEhHkCv1eSu3Nm6" target="_blank">立即導航</NuxtLink>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+							<path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+						</svg>
+					</li>
 				</ul>
 			</div>
 			<div 
