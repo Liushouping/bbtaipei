@@ -39,7 +39,7 @@
 			  </Swiper>
 		</div> -->
 		<div 
-		class="max-w-[80%] w-full h-full py-36 z-20 text-white flex flex-col space-y-6 justify-center items-center">
+		class="max-w-[80%] w-full h-full py-36 z-20 text-white flex flex-col space-y-16 justify-center items-center">
 			<div 
 			class="w-full h-full flex flex-row space-y-6 lg:space-y-0 space-x-0 lg:space-x-16 flex flex-col lg:flex-row justify-center items-start">
 				<div class="w-full lg:w-1/2">
