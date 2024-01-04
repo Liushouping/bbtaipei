@@ -26,7 +26,6 @@ const partners = [
 			<div class="w-full flex flex-col sm:flex-row">
 				<div 
 				class="w-full sm:w-1/2 flex flex-col justify-center items-start space-y-6 p-12 text-[14px]">
-					<!-- <h5 class="text-[32px] font-medium">OMNI TAIPEI</h5> -->
 					<div class="bg-gray-950 w-[60px] h-[60px] flex justify-center items-center rounded-lg">
 						<img src="/logo.svg" class="w-[40px]">
 					</div>
@@ -56,7 +55,13 @@ const partners = [
 						<li class="mb-4">22:30 ～ 04:30</li>
 
 						<li>訂位 / RSVP:</li>
-						<li>+886-983-803-388</li>
+						<li class="mb-4">+886-983-803-388</li>
+						<li class="bg-gray-900 px-4 py-2 text-gray-50 rounded-md flex flex-row space-x-2 items-center">
+							<NuxtLink to="/">近期活動 / Latest Events</NuxtLink>
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+							  <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+							</svg>
+						</li>
 					</ul>
 
 					<hr class="bg-black h-[2px] w-full">
