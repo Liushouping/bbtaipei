@@ -48,7 +48,7 @@ onBeforeUnmount(() => {
 						<li><NuxtLink to="/">Home</NuxtLink></li>
 						<li><NuxtLink to="/about">About</NuxtLink></li>
 						<li><NuxtLink to="/photo">Photo</NuxtLink></li>
-						<li><NuxtLink to="/exposure">Exposure</NuxtLink></li>
+						<!-- <li><NuxtLink to="/exposure">Exposure</NuxtLink></li> -->
 					</ul>
 				</div>
 			</nav>
@@ -72,7 +72,7 @@ onBeforeUnmount(() => {
 			      		<li><NuxtLink to="/" @click="menu =! menu">Home</NuxtLink></li>
 								<li><NuxtLink to="/about" @click="menu =! menu">About</NuxtLink></li>
 								<li><NuxtLink to="/photo" @click="menu =! menu">Photo</NuxtLink></li>
-								<li><NuxtLink to="/exposure" @click="menu =! menu">Exposure</NuxtLink></li>
+								<!-- <li><NuxtLink to="/exposure" @click="menu =! menu">Exposure</NuxtLink></li> -->
 								<li class="pt-6">
 									<img src="/logo.svg" class="w-[90px]">
 								</li> 
