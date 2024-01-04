@@ -8,7 +8,7 @@ onBeforeUnmount(() => {
 });
 </script>
 <template>
-	<div class="w-full h-full flex flex-col sm:flex-row">
+	<div class="relative w-full h-full flex flex-col sm:flex-row">
 		<div 
 		class="w-full sm:w-1/2 h-[600px] bg-cover bg-right"
 		style="background-image: url(/title-1.jpg);">
@@ -52,3 +52,5 @@ onBeforeUnmount(() => {
 		</div>
 	</div>
 </template>
+
+<style scoped></style>

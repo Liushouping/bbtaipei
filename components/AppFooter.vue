@@ -8,7 +8,7 @@ const Year = new Date().getFullYear();
 		class="max-w-[80%] w-full flex flex-col md:flex-row justify-center items-start px-2 md:px-4 space-x-0 md:space-x-12 space-y-12 md:space-y-0">
 			<div 
 			class="w-full md:w-1/4">
-				<h5 class="font-bold text-[18px] text-[#aa905d] tracking-[2px]">CONTACT US</h5>
+				<h5 class="font-medium text-[18px] text-[#aa905d] tracking-[1px]">CONTACT US</h5>
 				<ul class="mt-8 text-[14px] space-y-2">
 					<li class="text-gray-400 font-light">
 						一般查詢 | General Inquiry: 
@@ -27,9 +27,6 @@ const Year = new Date().getFullYear();
 						</a>
 					</li>
 					<li class="text-gray-400 font-light">
-						info at omni-taipei.com
-					</li>
-					<li class="text-gray-400 font-light">
 						客服專線 | Customer Service:
 					</li>
 					<li class="text-gray-400 font-light">
@@ -41,7 +38,7 @@ const Year = new Date().getFullYear();
 			</div>
 			<div 
 			class="w-full md:w-1/4">
-				<h5 class="font-bold text-[18px] text-[#aa905d] tracking-[2px]">LOCATION</h5>
+				<h5 class="font-medium text-[18px] text-[#aa905d] tracking-[1px]">LOCATION</h5>
 				<ul class="mt-8 text-gray-400 font-light text-[14px]">
 					<li>台灣台北市忠孝東路四段201號5樓 
 					5F, No. 201, Sec. 4, Zhong Xiao East Road 
@@ -50,7 +47,7 @@ const Year = new Date().getFullYear();
 			</div>
 			<div 
 			class="w-full md:w-1/4">
-				<h5 class="font-bold text-[18px] text-[#aa905d] tracking-[2px]">加LINE享優惠</h5>
+				<h5 class="font-medium text-[18px] text-[#aa905d] tracking-[1px]">加LINE享優惠</h5>
 				
 				<a href="https://line.me/R/ti/p/nkCjo_6ffo" target="_blank">
 					<img class="mt-8" src="/line.png">
