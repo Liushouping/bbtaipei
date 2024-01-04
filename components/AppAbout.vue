@@ -1,30 +1,21 @@
 <script setup>
-const partners = [
-	{
-		src: "/partner/par-1.png",
-	},
-	{
-		src: "/partner/par-2.jpeg",
-	},
-	{
-		src: "/partner/par-3.jpeg",
-	},
-	{
-		src: "/partner/par-4.jpeg",
-	},
-	{
-		src: "/partner/par-5.jpeg",
-	},
-];
 </script>
 <template>
 	<div 
 	id="about"
-	class="relative bg-white w-full h-[2300px] sm:h-[1200px] flex justify-center items-start bg-cover bg-left bg-bottom"
+	class="relative bg-white w-full h-[2300px] sm:h-[1800px] flex justify-center items-start bg-cover bg-left bg-bottom"
 	style="background-image: url(/bg.jpg);">
 		<div 
-		class="absolute bg-white w-[80%] h-auto -top-[100px] z-20">
-			<div class="w-full flex flex-col lg:flex-row">
+		class="absolute w-[80%] h-auto -top-[125px] z-20 flex flex-col">
+			<div class="w-full flex justify-end items-center space-x-2">
+				<span class="text-[10px] text-gray-50 tracking-[2px]">2024 BB Taipei 台北夜間娛樂指標</span>
+				<hr class="w-[14px] h-[2px]">
+			</div>
+		</div>
+		<div 
+		class="absolute w-[80%] h-auto -top-[100px] z-20 flex flex-col">
+			<!-- -->
+			<div class="bg-white w-full flex flex-col lg:flex-row">
 				<div 
 				class="w-full lg:w-1/2 flex flex-col justify-center items-start space-y-6 p-12 text-[14px]">
 					<div class="bg-gray-950 w-[60px] h-[60px] flex justify-center items-center rounded-lg">
@@ -40,7 +31,18 @@ const partners = [
 				</div>
 			</div>
 			<!-- -->
-			<div class="w-full flex flex-col lg:flex-row">
+			<div class="bg-gray-900 w-full flex flex-col lg:flex-row">
+				<div 
+				class="w-full lg:w-1/2 h-[600px] bg-cover bg-top"
+				style="background-image: url(/about-4.jpg);">
+				</div>
+				<div 
+				class="w-full lg:w-1/2 h-[600px] bg-cover bg-top"
+				style="background-image: url(/about-3.jpg);">
+				</div>
+			</div>
+			<!-- -->
+			<div class="bg-white w-full flex flex-col lg:flex-row">
 				<div 
 				class="w-full lg:w-1/2 h-[600px] bg-cover bg-center"
 				style="background-image: url(about-2.jpg);">
@@ -53,27 +55,15 @@ const partners = [
 						<li class="mb-4">22:00 ～ 04:00</li>
 						<li class="mb-4">每週二 公休</li>
 
-<!-- 						<li>Wed, Thurs, Fri., and Sun.</li>
-						<li class="mb-4">22:30 ～ 04:30</li> -->
+						<li class="mb-4">如有任何包場或其他特殊需求，請撥打電話或私訊社群聯絡我們</li>
 
-<!-- 						<li>訂位 / RSVP:</li>
-						<li class="mb-4">+886 900630948</li> -->
-						<li class="bg-gray-900 px-4 py-2 text-gray-50 rounded-md flex flex-row space-x-2 items-center">
-							<NuxtLink to="https://www.facebook.com/profile.php?id=100095099185394" target="_blank">近期活動 / Latest Events</NuxtLink>
+						<li class="w-[160px] bg-gray-900 px-4 py-2 text-gray-50 rounded-md flex flex-row space-x-2 items-center">
+							<NuxtLink to="https://www.facebook.com/profile.php?id=100095099185394" target="_blank">追蹤近期資訊</NuxtLink>
 							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
 							  <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
 							</svg>
 						</li>
 					</ul>
-
-<!-- 					<hr class="bg-black h-[2px] w-full">
-					<div class="flex flex-row flex-wrap flex-row space-x-0 space-y- justify-start w-full">
-						<img 
-						v-for="(partner, index) in partners"
-      					:key="index"
-						:src="partner.src" 
-						class="h-[60px] bg-red-300">
-					</div> -->
 				</div>
 			</div>
 		</div>
