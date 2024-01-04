@@ -14,7 +14,7 @@ function handlePlay() {
 	class="relative w-full h-screen bg-gray-900 flex justify-center items-center overflow-hidden">
      <video 
      @click="handlePlay"
-     poster="/title-3.jpg"
+     poster="/poster.jpg"
      class="min-w-full min-h-full absolute z-10 object-cover bg-gray-900" src="/bbbanner.mp4" type="video/mp4" autoplay muted loop webkit-playsinline playsinline></video>
 		<!-- -->
 		<div 
