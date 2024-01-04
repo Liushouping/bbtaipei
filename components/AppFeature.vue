@@ -14,7 +14,7 @@ onBeforeUnmount(() => {
 		style="background-image: url(/title-1.jpg);">
 		</div>
 		<div 
-		class="w-full sm:w-1/2 flex flex-col justify-center items-center space-y-6 p-12 text-[14px] bg-black">
+		class="relative w-full sm:w-1/2 flex flex-col justify-center items-center space-y-6 p-12 text-[14px] bg-black">
 			<h5 class="text-[21px] sm:text-[32px] font-light tracking-[4px] text-[#aa905d]">主題一：百大DJ降臨 BB TAIPEI</h5>
 		</div>
 	</div>
