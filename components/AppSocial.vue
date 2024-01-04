@@ -17,7 +17,8 @@ onBeforeUnmount(() => {
 <template>
 	<div 
 	:class="{ 'opacity-100': GoTop }"
-	class="fixed bottom-56 right-0 w-[60px] h-[260px] transition-all duration-500 cursor-pointer opacity-0 z-30 bg-gray-50 flex justify-center items-center rounded-tl-2xl rounded-bl-2xl drop-shadow-2xl">
+	class="fixed bottom-56 right-0 w-[60px] h-[260px] transition-all duration-500 cursor-pointer opacity-0 z-30 bg-gray-50 flex justify-center items-center rounded-tl-2xl rounded-bl-2xl drop-shadow-2xl"
+	>
 		<ul class="flex flex-col justify-center items-center space-y-8">
 			<li>
 				<a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=327gjmth" target="_blank">
@@ -44,7 +45,8 @@ onBeforeUnmount(() => {
 				</a>
 			</li>
 			<li>
-				<button>
+				<button
+				@click="Top">
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
 					  <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18" />
 					</svg>
