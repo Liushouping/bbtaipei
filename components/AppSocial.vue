@@ -17,7 +17,7 @@ onBeforeUnmount(() => {
 <template>
 	<div 
 	:class="{ 'opacity-100': GoTop }"
-	class="fixed bottom-52 right-0 w-[60px] h-[310px] transition-all duration-500 cursor-pointer opacity-0 z-30 bg-gray-50 flex justify-center items-center rounded-tl-2xl rounded-bl-2xl drop-shadow-2xl"
+	class="fixed bottom-44 right-0 w-[60px] h-[310px] transition-all duration-500 cursor-pointer opacity-0 z-30 bg-gray-50 flex justify-center items-center rounded-tl-2xl rounded-bl-2xl drop-shadow-2xl"
 	>
 		<ul class="flex flex-col justify-center items-center space-y-6">
 			<li class="flex flex-col justify-center items-center space-y-1">
@@ -30,7 +30,7 @@ onBeforeUnmount(() => {
 						</g>
 					</svg>
 				</a>
-				<span class="text-[10px] text-gray-900 font-light">LINE</span>
+				<span class="text-[10px] text-gray-900 font-light">LINE@</span>
 			</li>
 			<li class="flex flex-col justify-center items-center space-y-1">
 				<a 
