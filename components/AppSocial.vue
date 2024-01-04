@@ -17,9 +17,9 @@ onBeforeUnmount(() => {
 <template>
 	<div 
 	:class="{ 'opacity-100': GoTop }"
-	class="fixed bottom-44 right-0 w-[40px] sm:w-[50px] h-[200px] sm:h-[310px] transition-all duration-500 cursor-pointer opacity-0 z-30 bg-gray-50 flex justify-center items-center rounded-tl-2xl rounded-bl-2xl drop-shadow-2xl"
+	class="fixed bottom-44 right-0 w-[40px] sm:w-[50px] h-[180px] sm:h-[310px] transition-all duration-500 cursor-pointer opacity-0 z-30 bg-gray-50 flex justify-center items-center rounded-tl-2xl rounded-bl-2xl drop-shadow-2xl"
 	>
-		<ul class="flex flex-col justify-center items-center space-y-4 sm:space-y-6">
+		<ul class="flex flex-col justify-center items-center space-y-6">
 			<li class="flex flex-col justify-center items-center space-y-1">
 				<a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=327gjmth" target="_blank">
 					<svg 
