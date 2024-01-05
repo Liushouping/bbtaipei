@@ -4,7 +4,7 @@ const Year = new Date().getFullYear();
 <template>
 	<div 
 	id="about"
-	class="relative bg-white w-full h-[3300px] sm:h-[1800px] flex justify-center items-start bg-cover bg-left bg-bottom"
+	class="relative bg-white w-full h-[3300px] lg:h-[1800px] flex justify-center items-start bg-cover bg-left bg-bottom"
 	style="background-image: url(/bg.jpg);">
 		<div class="bg-black/10 backdrop-blur-xl w-full h-full absolute z-10"></div>
 		<div 
