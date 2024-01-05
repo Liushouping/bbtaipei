@@ -31,7 +31,7 @@
 			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-7.jpg');">
 			</div>
 		</div>
-		<div class="scroll-swiper flex w-max animate-move-right">
+<!-- 		<div class="scroll-swiper flex w-max animate-move-right">
 			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-8.jpg');">
 			</div>
 			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-9.jpg');">
@@ -60,7 +60,7 @@
 			</div>
 			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-14.jpg');">
 			</div>
-		</div>
+		</div> -->
 	</div>
 </template>
 
@@ -87,7 +87,7 @@
     transform: translate3d(-3360px, 0, 0);
   }
 }
-
+/*
 .animate-move-right {
   -webkit-animation: moveRight 60s linear 0s infinite normal none;
   animation: moveRight 60s linear 0s infinite normal none;
@@ -100,7 +100,7 @@
   100% {
     transform: translate3d(0, 0, 0);
   }
-}
+}*/
 
 
 </style>

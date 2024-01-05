@@ -9,7 +9,7 @@
 		<div 
 		class="absolute w-[80%] h-auto -top-[125px] z-20 flex flex-col">
 			<div class="w-full flex justify-end items-center space-x-2">
-				<span class="text-[10px] text-gray-50 tracking-[2px]">2024 BB Taipei 台北夜間娛樂指標</span>
+				<span class="text-[10px] text-gray-50 tracking-[2px]">2024 BB Taipei 台北最火辣的夜間娛樂品牌</span>
 				<hr class="w-[14px] h-[2px]">
 			</div>
 		</div>
