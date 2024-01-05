@@ -71,9 +71,9 @@
 .scroll-swiper {
 	animation-play-state: running;
 }
-/*.scroll-swiper:hover {
+.scroll-swiper:hover {
 	animation-play-state: paused;
-}*/
+}
 .animate-move-left {
   -webkit-animation: moveLeft 60s linear 0s infinite normal none;
   animation: moveLeft 60s linear 0s infinite normal none;
