@@ -173,7 +173,7 @@ onMounted(() => {
 			<div class="flex flex-row items-center h-full w-full space-x-6">
 				<h5 class="text-[24px] font-light text-gray-50 mb-6 tracking-[1px]">Photo</h5>
 				<hr class="w-full h-4 opacity-10">
-				<img src="/logo.svg" width="35px">
+				<img src="/logo.svg" width="35px" loading="lazy">
 			</div>
 			<div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
 				<a 
