@@ -15,14 +15,14 @@ onBeforeUnmount(() => {
 		</div>
 		<div 
 		class="relative w-full sm:w-1/2 flex flex-col justify-center items-center space-y-6 p-12 bg-black">
-			<h5 class="text-[18px] sm:text-[32px] font-bold tracking-[4px] text-[#aa905d]">百大DJ降臨 BB TAIPEI</h5>
+			<h5 class="text-[18px] sm:text-[32px] font-bold tracking-[4px] text-[#eab308]">百大DJ降臨 BB TAIPEI</h5>
 		</div>
 	</div>
 
 	<div class="w-full h-full flex flex-col sm:flex-row">
 		<div 
 		class="w-full sm:w-1/2 flex flex-col justify-center items-center space-y-6 p-12  order-2 sm:order-1 bg-black">
-			<h5 class="text-[18px] sm:text-[32px] font-bold tracking-[4px] text-[#aa905d]">成人之夜 全台北最火辣的派對</h5>
+			<h5 class="text-[18px] sm:text-[32px] font-bold tracking-[4px] text-[#eab308]">成人之夜 全台北最火辣的派對</h5>
 		</div>
 		<div 
 		class="w-full sm:w-1/2 h-[600px] bg-cover bg-right order-1 sm:order-2"
@@ -37,14 +37,14 @@ onBeforeUnmount(() => {
 		</div>
 		<div 
 		class="w-full sm:w-1/2 flex flex-col justify-center items-center space-y-6 p-12 bg-black">
-			<h5 class="text-[18px] sm:text-[32px] font-bold tracking-[4px] text-[#aa905d]">引領潮流韓風炸翻全場</h5>
+			<h5 class="text-[18px] sm:text-[32px] font-bold tracking-[4px] text-[#eab308]">引領潮流韓風炸翻全場</h5>
 		</div>
 	</div>
 
 	<div class="w-full h-full flex flex-col sm:flex-row">
 		<div 
 		class="w-full sm:w-1/2 flex flex-col justify-center items-center space-y-6 p-12  order-2 sm:order-1 bg-black">
-			<h5 class="text-[18px] sm:text-[32px] font-bold tracking-[4px] text-[#aa905d]">高空粉水煙吧</h5>
+			<h5 class="text-[18px] sm:text-[32px] font-bold tracking-[4px] text-[#eab308]">高空粉水煙吧</h5>
 		</div>
 		<div 
 		class="w-full sm:w-1/2 h-[600px] bg-cover bg-center sm:bg-right order-1 sm:order-2"
