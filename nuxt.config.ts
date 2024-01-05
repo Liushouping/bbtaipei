@@ -7,9 +7,9 @@ export default defineNuxtConfig({
       viewport: 'width=device-width, initial-scale=1',
       title: 'BB TAIPEI',
       meta: [
-        { name: 'description', content: 'BB Taipei 台北夜間娛樂指標 | BB Taipei' },
+        { name: 'description', content: 'BB Taipei (Blue Balls Taipei) 最狂韓風派對 空降嘉賓 + K bounce炸到底' },
         { property: 'og:title', content: 'BB TAIPEI' },
-        { property: 'og:description', content: 'BB Taipei 台北夜間娛樂指標 | BB Taipei' },
+        { property: 'og:description', content: 'BB Taipei (Blue Balls Taipei) 最狂韓風派對 空降嘉賓 + K bounce炸到底' },
         { property: 'og:image', content: 'https://bbtaipei.com/og-img.jpeg' }
       ],
       link: [
