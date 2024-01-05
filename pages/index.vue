@@ -9,6 +9,8 @@
 		<!-- -->
 		<AppFeature />
 		<!-- -->
+		<AppSwiper />
+		<!-- -->
 		<AppFooter />
 	</div>
 </template>
