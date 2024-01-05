@@ -8,7 +8,7 @@ const Year = new Date().getFullYear();
 		class="max-w-[80%] w-full flex flex-col lg:flex-row justify-center items-start px-2 lg:px-4 space-x-0 lg:space-x-12 space-y-12 lg:space-y-0">
 			<div 
 			class="w-full lg:w-1/3">
-				<h5 class="font-medium text-[18px] text-[#eab308] tracking-[1px]">LOCATION</h5>
+				<h5 class="font-medium text-[18px] text-[#F0B90B] tracking-[1px]">LOCATION</h5>
 				<ul class="mt-8 text-gray-400 font-light text-[14px] flex flex-col justify-center items-start space-y-4">
 					<li>台灣台北市信義區松壽路12號10樓 <br>
 					 Sinyi District, Taipei, Taiwan, 110</li>
@@ -27,7 +27,7 @@ const Year = new Date().getFullYear();
 
 			<div 
 			class="w-full lg:w-1/3">
-				<h5 class="font-medium text-[18px] text-[#eab308] tracking-[1px]">OPERATING HOURS</h5>
+				<h5 class="font-medium text-[18px] text-[#F0B90B] tracking-[1px]">OPERATING HOURS</h5>
 				<ul class="mt-8 text-gray-400 font-light text-[14px] flex flex-col justify-center items-start space-y-2">
 					<li>每週日、一、三、四、五、六</li>
 					<li>22:00 ～ 04:00</li>
@@ -37,7 +37,7 @@ const Year = new Date().getFullYear();
 
 			<div 
 			class="w-full lg:w-1/3">
-				<h5 class="font-medium text-[18px] text-[#eab308] tracking-[1px]">CONTACT US</h5>
+				<h5 class="font-medium text-[18px] text-[#F0B90B] tracking-[1px]">CONTACT US</h5>
 				<ul class="mt-8 text-[14px] space-y-2">
 					<li class="text-gray-400 font-light">
 						電子信箱: 

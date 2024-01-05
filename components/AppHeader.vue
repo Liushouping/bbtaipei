@@ -120,10 +120,10 @@ onBeforeUnmount(() => {
   opacity: 0;
 }
 
-.router-link-active {
+/*.router-link-active {
   color: #aa905d;
 }
 .router-link-active:hover {
   color: #aa905d;
-}
+}*/
 </style>

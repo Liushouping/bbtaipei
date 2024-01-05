@@ -11,6 +11,8 @@
 		<!-- -->
 		<AppSwiper />
 		<!-- -->
+		<!-- <AppBooking /> -->
+		<!-- -->
 		<AppFooter />
 	</div>
 </template>
