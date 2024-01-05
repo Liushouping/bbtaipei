@@ -32,7 +32,7 @@ onBeforeUnmount(() => {
 
 	<div class="w-full h-full flex flex-col sm:flex-row">
 		<div 
-		class="w-full sm:w-1/2 h-[600px] bg-cover bg-right"
+		class="w-full sm:w-1/2 h-[600px] bg-cover bg-center sm:bg-right"
 		style="background-image: url(/title-3.jpg);">
 		</div>
 		<div 
@@ -47,7 +47,7 @@ onBeforeUnmount(() => {
 			<h5 class="text-[18px] sm:text-[32px] font-bold tracking-[4px] text-[#aa905d]">高空粉水煙吧</h5>
 		</div>
 		<div 
-		class="w-full sm:w-1/2 h-[600px] bg-cover bg-right order-1 sm:order-2"
+		class="w-full sm:w-1/2 h-[600px] bg-cover bg-center sm:bg-right order-1 sm:order-2"
 		style="background-image: url(/title-4.jpg);">
 		</div>
 	</div>

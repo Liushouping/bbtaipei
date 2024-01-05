@@ -1,6 +1,6 @@
 <template>
 	<!-- 輪播圖片 -->
-	<div>
+	<div class="relative overflow-hidden">
 		<div class="scroll-swiper flex w-max animate-move-left">
 			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-1.jpg');">
 			</div>
