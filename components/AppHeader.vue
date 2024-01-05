@@ -10,7 +10,7 @@ const menu = ref(false);
 const handleScroll = () => {
 	const scrollY = window.scrollY || window.pageYOffset;
     // headerHeight.value = scrollY > 110 ? 110 : 30;
-    headerBackgroundColor.value = scrollY > 60 ? 'black' : 'transparent';
+    // headerBackgroundColor.value = scrollY > 60 ? 'black' : 'transparent';
     headerTextColor.value = scrollY > 60 ? 'black' : 'white';
     headerShadow.value = scrollY > 60;
     headerIcon.value = scrollY < 60;
@@ -28,10 +28,11 @@ onBeforeUnmount(() => {
 	<div>
 		<header 
 		class="w-full fixed top-0 flex justify-center z-40">
-			<nav class="h-[30px] w-full py-16 flex justify-center transition-all duration-1000" 
+			<nav class="relative h-[30px] w-full py-16 flex justify-center transition-all duration-1000" 
 			:class="{ 'shadow-sm': headerShadow }"
 			:style="{ backgroundColor: headerBackgroundColor, color: headerTextColor }">
-				<div class="max-w-[80%] w-full flex flex-row justify-between items-center">
+				<div :class="{ 'bg-black/10 backdrop-blur-xl w-full h-full absolute top-0 z-10' : headerShadow }"></div>
+				<div class="max-w-[80%] w-full flex flex-row justify-between items-center z-20">
 					<NuxtLink to="/">
 						<img src="/logo.svg" class="w-[50px]">
 					</NuxtLink>
