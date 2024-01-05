@@ -10,7 +10,7 @@ export default defineNuxtConfig({
         { name: 'description', content: 'BB Taipei (Blue Balls Taipei) 最狂韓風派對 空降嘉賓 + K bounce炸到底' },
         { property: 'og:title', content: 'BB TAIPEI' },
         { property: 'og:description', content: 'BB Taipei (Blue Balls Taipei) 最狂韓風派對 空降嘉賓 + K bounce炸到底' },
-        { property: 'og:image', content: 'https://bbtaipei.com/og-img.jpeg' }
+        { property: 'og:image', content: 'https://bbtaipei.com/og-img.jpg' }
       ],
       link: [
         { 
