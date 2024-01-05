@@ -3,7 +3,7 @@ const Year = new Date().getFullYear();
 </script>
 <template>
 	<footer 
-	class="w-full h-full bg-gray-900 flex justify-center items-center py-20">
+	class="w-full h-full bg-[#0c0d0e] flex justify-center items-center py-20">
 		<div 
 		class="max-w-[80%] w-full flex flex-col lg:flex-row justify-center items-start px-2 lg:px-4 space-x-0 lg:space-x-12 space-y-12 lg:space-y-0">
 			<div 
