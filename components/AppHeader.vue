@@ -1,9 +1,9 @@
 <script setup>
 // const headerHeight = ref(30);
 const headerBackgroundColor = ref('transparent');
-const headerTextColor = ref("white");
+// const headerTextColor = ref("white");
 const headerShadow = ref(false);
-const headerIcon = ref(true);
+// const headerIcon = ref(true);
 
 const menu = ref(false);
 
@@ -11,9 +11,9 @@ const handleScroll = () => {
 	const scrollY = window.scrollY || window.pageYOffset;
     // headerHeight.value = scrollY > 110 ? 110 : 30;
     // headerBackgroundColor.value = scrollY > 60 ? 'black' : 'transparent';
-    headerTextColor.value = scrollY > 60 ? 'black' : 'white';
+    // headerTextColor.value = scrollY > 60 ? 'black' : 'white';
     headerShadow.value = scrollY > 60;
-    headerIcon.value = scrollY < 60;
+    // headerIcon.value = scrollY < 60;
 };
 
 onMounted(() => {
