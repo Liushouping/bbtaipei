@@ -1,6 +1,5 @@
 <template>
-	<!-- 輪播圖片 -->
-	<div class="relative overflow-hidden">
+	<div class="scroll-bg relative overflow-hidden">
 		<div class="scroll-swiper flex w-max animate-move-left">
 			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-1.jpg');">
 			</div>
@@ -49,6 +48,9 @@
 </template>
 
 <style scoped>
+/*.scroll-bg {
+	mask-image: linear-gradient(90deg, transparent, #656 20%, #656 80%, transparent) !important;
+}*/
 .scroll-swiper {
 	animation-play-state: running;
 }
@@ -82,4 +84,6 @@
     transform: translate3d(0, 0, 0);
   }
 }
+
+
 </style>
