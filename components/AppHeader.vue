@@ -29,8 +29,10 @@ onBeforeUnmount(() => {
 		<header 
 		class="w-full fixed top-0 flex justify-center z-40">
 			<nav class="relative h-[30px] w-full py-16 flex justify-center transition-all duration-1000" 
+			:class="{ 'shadow-sm': headerShadow }">
+<!-- 			<nav class="relative h-[30px] w-full py-16 flex justify-center transition-all duration-1000" 
 			:class="{ 'shadow-sm': headerShadow }"
-			:style="{ backgroundColor: headerBackgroundColor, color: headerTextColor }">
+			:style="{ backgroundColor: headerBackgroundColor, color: headerTextColor }"> -->
 				<div :class="{ 'bg-black/10 backdrop-blur-xl w-full h-full absolute top-0 z-10' : headerShadow }"></div>
 				<div class="max-w-[80%] w-full flex flex-row justify-between items-center z-20">
 					<NuxtLink to="/">
