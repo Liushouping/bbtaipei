@@ -2,91 +2,47 @@
 	<!-- 輪播圖片 -->
 	<div class="relative overflow-hidden">
 		<div class="scroll-swiper flex w-max animate-move-left">
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-1.jpg');">
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-1.jpg');">
 			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-2.jpg');">
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-2.jpg');">
 			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-3.jpg');">
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-3.jpg');">
 			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-4.jpg');">
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-4.jpg');">
 			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-1.jpg');">
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-5.jpg');">
 			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-2.jpg');">
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-6.jpg');">
 			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-3.jpg');">
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-7.jpg');">
 			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-4.jpg');">
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-1.jpg');">
 			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-1.jpg');">
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-2.jpg');">
 			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-2.jpg');">
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-3.jpg');">
 			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-3.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-4.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-1.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-2.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-3.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-4.jpg');">
-			</div>
-<!-- 			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-1.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-1.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-1.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-1.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-1.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-1.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-1.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-1.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-1.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/title-1.jpg');">
-			</div> -->
 		</div>
 		<div class="scroll-swiper flex w-max animate-move-right">
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/about-1.jpg');">
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-8.jpg');">
 			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/about-2.jpg');">
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-9.jpg');">
 			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/about-3.jpg');">
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-10.jpg');">
 			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/about-4.jpg');">
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-11.jpg');">
 			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/about-1.jpg');">
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-12.jpg');">
 			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/about-2.jpg');">
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-13.jpg');">
 			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/about-3.jpg');">
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-14.jpg');">
 			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/about-4.jpg');">
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-8.jpg');">
 			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/about-1.jpg');">
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-9.jpg');">
 			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/about-2.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/about-3.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/about-4.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/about-1.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/about-2.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/about-3.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/about-4.jpg');">
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-10.jpg');">
 			</div>
 		</div>
 	</div>
@@ -109,7 +65,7 @@
     transform: translate3d(0, 0, 0);
   }
   100% {
-    transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-3360px, 0, 0);
   }
 }
 
@@ -120,7 +76,7 @@
 
 @keyframes moveRight {
   0% {
-    transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-3360px, 0, 0);
   }
   100% {
     transform: translate3d(0, 0, 0);
