@@ -1,4 +1,5 @@
 <template>
+	<!-- Swiper -->
 	<div class="scroll-bg relative overflow-hidden">
 		<div class="scroll-swiper flex w-max animate-move-left">
 			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-1.jpg');">
@@ -21,6 +22,10 @@
 			</div>
 			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-3.jpg');">
 			</div>
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-4.jpg');">
+			</div>
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-5.jpg');">
+			</div>
 		</div>
 		<div class="scroll-swiper flex w-max animate-move-right">
 			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-8.jpg');">
@@ -42,6 +47,10 @@
 			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-9.jpg');">
 			</div>
 			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-10.jpg');">
+			</div>
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-11.jpg');">
+			</div>
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-12.jpg');">
 			</div>
 		</div>
 	</div>
