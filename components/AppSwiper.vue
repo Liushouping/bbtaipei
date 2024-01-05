@@ -26,6 +26,10 @@
 			</div>
 			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-5.jpg');">
 			</div>
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-6.jpg');">
+			</div>
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-7.jpg');">
+			</div>
 		</div>
 		<div class="scroll-swiper flex w-max animate-move-right">
 			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-8.jpg');">
@@ -51,6 +55,10 @@
 			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-11.jpg');">
 			</div>
 			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-12.jpg');">
+			</div>
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-13.jpg');">
+			</div>
+			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-14.jpg');">
 			</div>
 		</div>
 	</div>
