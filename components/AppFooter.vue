@@ -12,14 +12,13 @@ const Year = new Date().getFullYear();
 				<ul class="mt-8 text-gray-400 font-light text-[14px] flex flex-col justify-center items-start space-y-4">
 					<li>台灣台北市信義區松壽路12號10樓 <br>
 					 Sinyi District, Taipei, Taiwan, 110</li>
-					<li>
-						<NuxtLink to="https://maps.google.com/maps/dir//ATT+4+FUN+信義店+110台北市信義區松壽路12號/@25.0353558,121.5659995,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x3442abb0b0c4fc8d:0x60f9b663d6a4deb1" target="_blank">
-							<div class="bg-gray-800 px-4 py-2 text-gray-50 rounded-lg flex flex-row items-center tracking-[2px]">
+					<li class="relative overflow-hidden group">
+						<NuxtLink to="https://maps.google.com/maps/dir//ATT+4+FUN+信義店+110台北市信義區松壽路12號/@25.0353558,121.5659995,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x3442abb0b0c4fc8d:0x60f9b663d6a4deb1" target="_blank" 
+						class="w-[120px] bg-gray-800 px-4 py-2 text-gray-50 rounded-lg flex flex-row items-center tracking-[2px] group-hover:bg-gray-700 transition-colors">
 								立即導航
-								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 duration-500 group-hover:translate-x-[3px]">
 									<path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
 								</svg>
-							</div>
 						</NuxtLink>
 					</li>
 				</ul>
