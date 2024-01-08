@@ -61,11 +61,14 @@ const Year = new Date().getFullYear();
 
 						<li class="flex flex-row items-center space-x-2">
 							<NuxtLink to="https://www.facebook.com/profile.php?id=100095099185394" target="_blank"
-							class="w-[110px] bg-black px-4 py-2 text-gray-50 rounded-md flex space-x-2 justify-start items-center">官方粉絲團
+							class="bg-black px-4 py-2 text-gray-50 rounded-md flex space-x-2 justify-start items-center hover:bg-gray-700 transition-colors">官方粉絲團
 							</NuxtLink>
-							<NuxtLink to="https://liff.line.me/1645278921-kWRPP32q/?accountId=327gjmth" target="_blank"
-							class="w-[80px] bg-black px-4 py-2 text-gray-50 rounded-md flex space-x-2 justify-start items-center">LINE@
+<!-- 							<NuxtLink to="https://liff.line.me/1645278921-kWRPP32q/?accountId=327gjmth" target="_blank"
+							class="bg-black px-4 py-2 text-gray-50 rounded-md flex space-x-2 justify-start items-center">LINE@
 							</NuxtLink>
+							<NuxtLink to="tel:0227236666" target="_blank"
+							class="bg-black px-4 py-2 text-gray-50 rounded-md flex space-x-2 justify-start items-center">聯絡電話
+							</NuxtLink> -->
 						</li>
 					</ul>
 				</div>
