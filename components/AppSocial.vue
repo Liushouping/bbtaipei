@@ -7,6 +7,7 @@ function Top() {
 	document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
 onMounted(() => {
   window.addEventListener('scroll', GoScroll);
 });
