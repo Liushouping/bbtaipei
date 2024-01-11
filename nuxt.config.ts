@@ -37,7 +37,6 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxtjs/tailwindcss',
-    'nuxt-swiper'
   ],
   // gtag: {
   //   id: 'AW-11363750698',
