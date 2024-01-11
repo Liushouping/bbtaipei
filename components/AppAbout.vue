@@ -20,7 +20,7 @@ const Year = new Date().getFullYear();
 				<div 
 				class="w-full lg:w-1/2 flex flex-col justify-center items-start space-y-6 p-12 text-[14px]">
 					<div class="bg-gray-950 w-[60px] h-[60px] flex justify-center items-center rounded-lg">
-						<img src="/logo.svg" class="w-[40px]">
+						<img src="/logo.svg" class="w-[40px]" alt="bbtaipei logo">
 					</div>
 					<p class="font-light">BB Taipei (Blue Balls) 台北最火辣的夜間娛樂品牌. 台灣的紅磨坊，沈浸式的瘋馬秀. 於2023年11月在台灣夜場地標ATT 4 FUN 10樓開幕，由加籍首席體驗設計師WT親自操刀，並由周杰倫演唱會專屬團隊首次將小巨蛋規格設備導入室內品牌，創造台灣最高規格的娛樂體驗。</p>
 					<p class="font-light">從1000坪大的雷射字幕到融合現代小百老匯沈浸式的卡座設計，高規格的科技下隱藏的是夜間娛樂的人文深度。每週來台演出的韓國DJ及百大佐全台萬知名網紅模特舞者的，以全新的沈浸型態呈現紅磨坊的精神。</p>

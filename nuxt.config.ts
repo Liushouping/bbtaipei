@@ -13,6 +13,9 @@ export default defineNuxtConfig({
         { property: 'og:image', content: 'https://bbtaipei.com/og-img.jpg' }
       ],
       link: [
+        {
+          rel: 'canonical', href: 'https://bbtaipei.com'
+        },
         { 
           rel: 'icon', type: 'image/x-icon', href: '/favicon.png' 
         },

@@ -22,7 +22,7 @@ function handlePlay() {
 		style="background-image: url(/dots.png);">
 		</div>
 		<div class="absolute z-30">
-			<img src="/logo.svg" class="w-[210px] sm:w-[240px]" loading="lazy">
+			<img src="/logo.svg" class="w-[210px] sm:w-[240px]" loading="lazy" alt="bbtaipei logo">
 		</div>
 	</div>
 </template>

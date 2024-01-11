@@ -59,7 +59,7 @@ const Year = new Date().getFullYear();
 
 			<div 
 			class="w-full lg:w-1/3">
-				<img src="/logo.svg" class="w-[180px] opacity-30">
+				<img src="/logo.svg" class="w-[180px] opacity-30" alt="bbtaipei logo">
 			</div>
 		</div>
 	</footer>

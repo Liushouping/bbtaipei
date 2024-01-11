@@ -36,7 +36,7 @@ onBeforeUnmount(() => {
 				<div :class="{ 'bg-black/10 backdrop-blur-xl w-full h-full absolute top-0 z-10' : headerShadow }"></div>
 				<div class="max-w-[80%] w-full flex flex-row justify-between items-center z-20">
 					<NuxtLink to="/">
-						<img src="/logo.svg" class="w-[50px]">
+						<img src="/logo.svg" class="w-[50px]" alt="bbtaipei logo">
 					</NuxtLink>
 <!-- 					<div 
 					class="flex md:hidden cursor-pointer"
@@ -77,7 +77,7 @@ onBeforeUnmount(() => {
 								<li><NuxtLink to="/photo" @click="menu =! menu">Photo</NuxtLink></li>
 								<!-- <li><NuxtLink to="/exposure" @click="menu =! menu">Exposure</NuxtLink></li> -->
 								<li class="pt-6">
-									<img src="/logo.svg" class="w-[90px]">
+									<img src="/logo.svg" class="w-[90px]" alt="bbtaipei logo">
 								</li> 
 							</ul>
 							<ul class="flex flex-row text-white space-x-4 items-center mt-6">
