@@ -31,6 +31,7 @@ export default defineNuxtConfig({
   ],
   site: {
     url: 'https://bbtaipei.com',
+    name: 'BB TAIPEI',
   },
   // gtag: {
   //   id: '',
