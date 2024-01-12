@@ -12,6 +12,7 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.10.3",
     "nuxt": "^3.9.0",
+    "nuxt-simple-sitemap": "^4.4.1",
     "vue": "^3.4.3",
     "vue-router": "^4.2.5"
   },
