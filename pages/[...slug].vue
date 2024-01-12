@@ -3,13 +3,7 @@
 		<!-- -->
 		<AppHeader />
 		<!-- -->
-		<AppBanner />
-		<!-- -->
-		<AppAbout />
-		<!-- -->
-		<AppFeature />
-		<!-- -->
-		<AppSwiper />
+		<App404 />
 		<!-- -->
 		<AppFooter />
 	</div>
