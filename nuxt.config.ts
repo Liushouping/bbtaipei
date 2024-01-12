@@ -29,6 +29,9 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     'nuxt-simple-sitemap'
   ],
+  site: {
+    url: 'https://bbtaipei.com',
+  },
   // gtag: {
   //   id: '',
   //   config: {
