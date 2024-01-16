@@ -1,7 +1,10 @@
 <template>
 	<div class="w-full h-screen bg-gray-950 pt-48 pb-24">
 		<div class="flex flex-col justift-center items-center">
-			<h5 class="font-bold text-[148px] text-gray-50 tracking-[4px]">404</h5>
+			
+			<p
+			class="bg-clip-text text-transparent bg-gradient-to-r from-[#F0B90B] to-gray-950 font-bold text-[148px] tracking-[4px]">404</p>
+			
 			<p class="font-light text-[36px] text-gray-50 tracking-[2px]">Page not found</p>
 			<NuxtLink 
 			to="/" 
