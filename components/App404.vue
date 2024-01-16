@@ -3,7 +3,7 @@
 		<div class="flex flex-col justift-center items-center">
 			
 			<p
-			class="bg-clip-text text-transparent bg-gradient-to-r from-[#F0B90B] to-gray-950 font-bold text-[148px] tracking-[4px]">404</p>
+			class="text-gray-50 font-bold text-[172px] tracking-[16px]">404</p>
 			
 			<p class="font-light text-[36px] text-gray-50 tracking-[2px]">Page not found</p>
 			<NuxtLink 
@@ -14,3 +14,11 @@
 		</div>
 	</div>
 </template>
+
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+p {
+	font-family: 'Anton', sans-serif;
+}
+</style>
