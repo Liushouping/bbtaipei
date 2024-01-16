@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: 'BB TAIPEI | 404 Not foud page',
+  title: 'BB TAIPEI | Not foud page',
 })
 </script>
 <template>
