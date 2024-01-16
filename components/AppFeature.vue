@@ -1,16 +1,7 @@
-<script setup>
-
-onMounted(() => {
-
-});
-onBeforeUnmount(() => {
-
-});
-</script>
 <template>
 	<div class="relative w-full h-full flex flex-col sm:flex-row">
 		<div 
-		class="w-full sm:w-1/2 h-[600px] bg-cover bg-right"
+		class="w-full sm:w-1/2 h-[600px] bg-cover bg-right bg-black"
 		style="background-image: url(/title-1.jpg);">
 		</div>
 		<div 
@@ -25,14 +16,14 @@ onBeforeUnmount(() => {
 			<h5 class="text-[18px] sm:text-[32px] font-bold tracking-[4px] text-[#F0B90B]">成人之夜 全台北最火辣的派對</h5>
 		</div>
 		<div 
-		class="w-full sm:w-1/2 h-[600px] bg-cover bg-right order-1 sm:order-2"
+		class="w-full sm:w-1/2 h-[600px] bg-cover bg-right order-1 sm:order-2 bg-black"
 		style="background-image: url(/title-2.jpg);">
 		</div>
 	</div>
 
 	<div class="w-full h-full flex flex-col sm:flex-row">
 		<div 
-		class="w-full sm:w-1/2 h-[600px] bg-cover bg-center sm:bg-right"
+		class="w-full sm:w-1/2 h-[600px] bg-cover bg-center sm:bg-right bg-black"
 		style="background-image: url(/title-3.jpg);">
 		</div>
 		<div 
@@ -47,7 +38,7 @@ onBeforeUnmount(() => {
 			<h5 class="text-[18px] sm:text-[32px] font-bold tracking-[4px] text-[#F0B90B]">高空粉水煙吧</h5>
 		</div>
 		<div 
-		class="w-full sm:w-1/2 h-[600px] bg-cover bg-center sm:bg-right order-1 sm:order-2"
+		class="w-full sm:w-1/2 h-[600px] bg-cover bg-center sm:bg-right order-1 sm:order-2 bg-black"
 		style="background-image: url(/title-4.jpg);">
 		</div>
 	</div>

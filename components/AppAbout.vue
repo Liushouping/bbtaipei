@@ -27,25 +27,25 @@ const Year = new Date().getFullYear();
 					<p class="font-light">戶外更藏有亞洲首個粉紅沙灘水煙吧。極具特色。普開幕即吸引美日韓的朋友入台朝聖。邀請您每週末ㄧ同見證台灣新式紅魔紡在世界的崛起。</p>
 				</div>
 				<div 
-				class="w-full lg:w-1/2 h-[600px] bg-cover bg-top"
+				class="w-full lg:w-1/2 h-[600px] bg-cover bg-top bg-black"
 				style="background-image: url(about-1.jpg);">
 				</div>
 			</div>
 			<!-- -->
 			<div class="bg-gray-900 w-full flex flex-col lg:flex-row">
 				<div 
-				class="w-full lg:w-1/2 h-[600px] bg-cover bg-top"
+				class="w-full lg:w-1/2 h-[600px] bg-cover bg-top bg-black"
 				style="background-image: url(/about-4.jpg);">
 				</div>
 				<div 
-				class="w-full lg:w-1/2 h-[600px] bg-cover bg-top"
+				class="w-full lg:w-1/2 h-[600px] bg-cover bg-top bg-black"
 				style="background-image: url(/about-3.jpg);">
 				</div>
 			</div>
 			<!-- -->
 			<div class="bg-white w-full flex flex-col lg:flex-row">
 				<div 
-				class="w-full lg:w-1/2 h-[600px] bg-cover bg-center"
+				class="w-full lg:w-1/2 h-[600px] bg-cover bg-center bg-black"
 				style="background-image: url(about-2.jpg);">
 				</div>
 				<div 
