@@ -3,7 +3,7 @@
 		<div class="flex flex-col justift-center items-center">
 			
 			<p
-			class="text-gray-50 font-bold text-[172px] tracking-[16px]">404</p>
+			class="text-gray-50 font-bold text-[148px] sm:text-[172px] tracking-[16px]">404</p>
 			
 			<p class="font-light text-[36px] text-gray-50 tracking-[2px]">Page not found</p>
 			<NuxtLink 
