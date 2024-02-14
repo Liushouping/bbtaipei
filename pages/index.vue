@@ -1,4 +1,8 @@
-
+<script setup>
+useHead({
+  title: 'BBtaipei',
+});
+</script>
 <template>
 	<div>
 		<!-- -->

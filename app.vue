@@ -1,8 +1,8 @@
 <template>
   <div>
     <NuxtLayout class="tracking-[2px]">
-      <NuxtPage />
-      <AppSocial />
+        <NuxtPage />
+        <AppSocial />
     </NuxtLayout>
   </div>
 </template>
