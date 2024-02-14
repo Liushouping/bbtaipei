@@ -20,6 +20,9 @@ function handlePlay() {
 		<div 
 		class="absolute z-20 bg-repeat w-full h-[120vh] opacity-50" 
 		style="background-image: url(/dots.png);">
+<!-- 		<div 
+		class="absolute z-20 bg-repeat w-full h-[120vh] opacity-80" 
+		style="background-image: url(/3px-tile.png"> -->
 		</div>
 		<div class="absolute z-30">
 			<img src="/logo.svg" class="w-[210px] sm:w-[240px]" alt="bbtaipei logo">
