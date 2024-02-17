@@ -1,7 +1,6 @@
 <template>
-	<!-- Swiper -->
-	<div class="scroll-bg relative overflow-hidden">
-		<div class="scroll-swiper flex w-max animate-move-left">
+	<div class="scroll img-box flex flex-row" style="--t: 60s">
+    <div class="flex flex-row">
 			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-1.jpg');">
 			</div>
 			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-2.jpg');">
@@ -16,6 +15,9 @@
 			</div>
 			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-7.jpg');">
 			</div>
+    </div>
+
+    <div class="flex flex-row">
 			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-1.jpg');">
 			</div>
 			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-2.jpg');">
@@ -30,77 +32,49 @@
 			</div>
 			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-7.jpg');">
 			</div>
-		</div>
-<!-- 		<div class="scroll-swiper flex w-max animate-move-right">
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-8.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-9.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-10.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-11.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-12.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-13.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-14.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-8.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-9.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-10.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-11.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-12.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-13.jpg');">
-			</div>
-			<div class="w-[480px] h-[360px] bg-cover" style="background-image: url('/swipers/sw-14.jpg');">
-			</div>
-		</div> -->
-	</div>
+    </div>
+  </div>
 </template>
 
+
 <style scoped>
-/*.scroll-bg {
-	mask-image: linear-gradient(90deg, transparent, #656 20%, #656 80%, transparent) !important;
-}*/
-.scroll-swiper {
-	animation-play-state: running;
-}
-.scroll-swiper:hover {
-	animation-play-state: paused;
-}
-.animate-move-left {
-  -webkit-animation: moveLeft 60s linear 0s infinite normal none;
-  animation: moveLeft 60s linear 0s infinite normal none;
+.scroll {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
 }
 
-@keyframes moveLeft {
+.scroll > div {
+  white-space: nowrap;
+  animation: animate var(--t) linear infinite;
+  animation-delay: calc(var(--t) * -1);
+}
+@keyframes animate {
   0% {
-    transform: translate3d(0, 0, 0);
+    transform: translateX(100%);
   }
+
   100% {
-    transform: translate3d(-3360px, 0, 0);
+    transform: translateX(-100%);
   }
-}
-/*
-.animate-move-right {
-  -webkit-animation: moveRight 60s linear 0s infinite normal none;
-  animation: moveRight 60s linear 0s infinite normal none;
 }
 
-@keyframes moveRight {
+.scroll > div:nth-child(2) {
+  animation: animate2 var(--t) linear infinite;
+  animation-delay: calc(var(--t) / -2);
+}
+@keyframes animate2 {
   0% {
-    transform: translate3d(-3360px, 0, 0);
+    transform: translateX(0);
   }
-  100% {
-    transform: translate3d(0, 0, 0);
-  }
-}*/
 
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+.scroll:hover > div {
+  animation-play-state: paused;
+}
 
 </style>
