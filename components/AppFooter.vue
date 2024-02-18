@@ -94,4 +94,3 @@ const Year = new Date().getFullYear();
 		</div>
 	</div>
 </template>
-
