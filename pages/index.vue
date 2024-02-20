@@ -16,7 +16,7 @@ useHead({
 		<!-- -->
 		<AppSwiper />
 		<!-- -->
-		<AppFooter />123
+		<AppFooter />
 	</div>
 </template>
 
