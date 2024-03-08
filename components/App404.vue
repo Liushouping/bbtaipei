@@ -7,7 +7,7 @@ useHead({
 <template>
 	<div class="w-full h-screen bg-gray-950 pt-48 pb-24">
 		<div class="flex flex-col justift-center items-center">
-			<p class="bg-clip-text text-transparent bg-gradient-to-b from-[#F0B90B] to-gray-950 font-bold text-[124px] sm:text-[172px] tracking-[2px]">Oops!</p>
+			<p class="bg-clip-text text-transparent bg-gradient-to-b from-[#F0B90B] to-gray-950 font-bold text-[112px] sm:text-[172px] tracking-[2px]">Oops!</p>
 
 			<div class="absolute top-0 right-0 bg-gradient-to-r from-[#F0B90B] to-gray-900 opacity-40 [mask-image:radial-gradient(farthest-side_at_top,white,transparent)] w-[600px] h-[400px] z-10">
 				
@@ -16,7 +16,7 @@ useHead({
 				<p class="text-[14px] bg-clip-text text-transparent bg-gradient-to-b from-gray-50 to-gray-950">404 Error</p>
 			</span>
 
-			<p class="bg-clip-text text-transparent bg-gradient-to-b from-[#F0B90B] to-gray-950 font-light text-[24px] tracking-[2px]">We can’t find that page ...</p>
+			<p class="bg-clip-text text-transparent bg-gradient-to-b from-[#F0B90B] to-gray-950 font-light text-[18px] sm:text-[24px] tracking-[2px]">We can’t find that page ...</p>
 			<div class="flex flex-row space-x-4">
 				<NuxtLink
 				to="/"
