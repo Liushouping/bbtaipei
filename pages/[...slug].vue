@@ -1,7 +1,8 @@
 <script setup>
 useHead({
   title: 'BB TAIPEI | Not foud page',
-})
+});
+setResponseStatus(404);
 </script>
 <template>
 	<div>
