@@ -20,10 +20,10 @@ export default defineNuxtConfig({
           rel: 'canonical', href: 'https://bbtaipei.com'
         },
         { 
-          rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' 
+          rel: 'icon', type: 'image/png', href: '/favicon.png' 
         },
         { 
-          rel: 'apple-touch-icon', href: '/favicon.svg' 
+          rel: 'apple-touch-icon', href: '/favicon.png' 
         },
       ],
     },
